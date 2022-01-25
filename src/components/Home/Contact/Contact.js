@@ -1,8 +1,8 @@
 import emailjs from '@emailjs/browser';
-import React from 'react';
 import { faAppStore, faPeriscope } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
@@ -41,7 +41,7 @@ const Contact = () => {
                                 </div>
                                 <div className="input-form">
                                     <label className="block mt-3 mb-2 text-white">Subject</label>
-                                    <input type="subject" className="form-control w-72 p-2 rounded" placeholder="Write your email address" name="subject" required/>
+                                    <input type="subject" className="form-control w-72 p-2 rounded" placeholder="Write your subject" name="subject" required/>
                                 </div>
                             </div>
 

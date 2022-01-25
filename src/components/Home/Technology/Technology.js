@@ -14,7 +14,7 @@ const Technology = () => {
                             <div>
                                 <div >
                                     <FontAwesomeIcon class="w-10 hover:text-white bg-yellow-600 p-2 rounded-full cursor-pointer duration-300" icon={faAws}></FontAwesomeIcon>
-                                    <h1 class="text-2xl text-gray-900 mb-3">Security</h1>
+                                    <h1 class="text-2xl text-gray-900 my-3">Security</h1>
                                 </div>
                                 <p class="text-gray-600">IT combines the authentication of both users and devices with the authorization of access to various assets to ensure the highest level of security.</p>
                             </div>
@@ -22,7 +22,7 @@ const Technology = () => {
                             <div  class="ml-4">
                                 <div>
                                     <FontAwesomeIcon class="w-9 hover:text-white bg-yellow-600 p-2 rounded-full cursor-pointer duration-300" icon={faSuperpowers}></FontAwesomeIcon>
-                                    <h1 class="text-2xl text-gray-900 mb-3">Performance</h1>
+                                    <h1 class="text-2xl text-gray-900 my-3">Performance</h1>
                                 </div>
                                 <p class="text-gray-600">We focus on the excellent support and service we provide to our customers.</p>
                             </div>

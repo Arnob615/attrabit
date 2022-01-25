@@ -1,5 +1,4 @@
 import React from 'react';
-// import Typical from 'react-typical'
 
 const HeaderTitle = () => {
     return (
@@ -7,11 +6,6 @@ const HeaderTitle = () => {
             <div class="max-w-screen-xl mx-auto">
                 <div class="w-2/4 mx-auto text-gray-200">
                     <div>
-                        {/* <Typical
-                            className="text-white typical"
-                            steps={['', 1000, 'Attrabit ICT Solution', 900]}
-                            loop={Infinity}
-                        /> */}
                         <h2 class="text-6xl pt-44">Attrabit ICT Solution</h2>
                         <p class="py-7">Arcu Mi Porttitor Est Non Felis Aliquam Ullamcorper Sed Porttitor Accumsan Arcu Maecenas Lorem Elit Tristique Quis Iaculis At Euismod Vel Arcu Donec Et Lorem</p>
                     </div>
