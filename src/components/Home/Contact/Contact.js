@@ -19,45 +19,38 @@ const Contact = () => {
     return (
         <section>
             <div class="max-w-screen-xl mx-auto bg-gray-600">
-            <h1 class="text-3xl mt-16 mb-10 p-4 text-white">Contact Us</h1>
-                <div class="grid grid-cols-2 gap-4">
+            <h1 class="text-4xl pt-16 mb-10 p-4 text-white lg:text-center">CONTACT US</h1>
+                <div class="grid lg:grid-cols-2 justify-between gap-4 md:p-5 lg:p-5">
                     <form onSubmit={sendEmail}>
-                        <div className="row pt-5 p-4">
-                            <div className="form-name flex justify-between">
-                                <div className="input-form">
-                                    <label className="block mb-2 text-white">First Name</label>
-                                    <input type="text" className="form-control w-72 p-2 rounded" placeholder="Write your first name" name="first_name" required/>
-                                </div>
-                                <div className="input-form">
-                                    <label className="block mb-2 text-white">Last Name</label>
-                                    <input type="text" className="form-control w-72 p-2 rounded" placeholder="Write your last name" name="last_name" required/>
-                                </div>
+                        <div className="row pt-5 p-2">
+                            <div className="input-form">
+                                <label className="text-white pr-20">Full Name</label>
+                                <input type="text" className="form-control w-full lg:w-full p-2 rounded" placeholder="Write your full name" name="first_name" required/>
                             </div>
 
-                            <div className="form-name flex justify-between">
-                                <div className="input-form">
-                                    <label className="block mt-3 mb-2 text-white">Email</label>
-                                    <input type="email" className="form-control w-72 p-2 rounded" placeholder="Write your email address" name="email" required/>
-                                </div>
-                                <div className="input-form">
-                                    <label className="block mt-3 mb-2 text-white">Subject</label>
-                                    <input type="subject" className="form-control w-72 p-2 rounded" placeholder="Write your subject" name="subject" required/>
-                                </div>
+                            <div className="input-form py-5">
+                                <label className="pr-28 mb-2 text-white">Email</label>
+                                <input type="email" className="form-control  w-full  lg:w-full p-2 rounded" placeholder="Write your email address" name="email" required/>
                             </div>
 
-                            <div className="text-area">
-                                <label className="block mt-3 mb-2 text-white">Message</label>
-                                <textarea className="form-control rounded" id="" cols="73" rows="7" placeholder="Write your message here" name="Message" required></textarea>
+                            <div className="input-form">
+                                <label className="pr-24 mb-2 text-white">Subject</label>
+                                <input type="subject" className="form-control  w-full lg:w-full p-2 rounded" placeholder="Write your subject" name="subject" required/>
+                            </div>
+
+                            <div className="text-area mt-5">
+                                <label className="text-white block">Message</label>
+                                <textarea className="form-control rounded w-96 lg:w-full" id="" rows="7" placeholder="Write your message here" name="Message" required></textarea>
                             </div>
 
                             <div className="mt-4">
-                                <input type="submit" className="submit-button bg-yellow-600 text-white px-4 py-2 rounded-full cursor-pointer" value="Send Message"/>
+                                <input type="submit" class="submit-button transform duration-300 text-lg bg-yellow-500 hover:bg-yellow-700 hover:text-white hover:translate-x-4 text-gray-900 px-8 py-3 cursor-pointer" value="Send Message"/>
                             </div>
                         </div>
                     </form>
 
-                    <div className="right-content text-white px-40">
-                        <h3 className="text-2xl my-5 pb-4">GET IN TOUCH</h3>
+                    <div className="right-content text-white px-6 lg:px-40">
+                        <h3 className="text-4xl my-5 pb-4 ">GET IN TOUCH</h3>
                         <div className="address my-4">
                         <FontAwesomeIcon class="w-8 pb-2 hover:text-red-600 cursor-pointer duration-300" icon={faPeriscope}></FontAwesomeIcon>
                             <h4>Address</h4>
