@@ -47,7 +47,7 @@ const SoftwareDevelopment = () => {
 
                     <div class="grid md:grid-cols-2 gap-6 items-center">
                         <div>
-                            <h2 class="text-3xl my-10 text-gray-900">POS Solution</h2>
+                            <h2 class="text-3xl my-10 text-gray-900">POS SOLUTION</h2>
                             <p class="text-gray-700 text-justify text-lg">Our Indo Tech team understands what retailers face every day. Our staff is from retail backgrounds, and we utilize our customers’ input to design and develop systems that are useful in the real world of retailing. We are constantly updating and innovating to anticipate any future needs your business might have.</p>
                             <p class="text-gray-700 text-justify py-2 text-lg">Because we know that your time for training is very limited, we have designed Smart Vendor to be so easy to learn and use that your staff will be able to handle any typical sale within minutes. In fact, you’re just one keystroke away from almost any function you can imagine.</p>
                             <p class="text-gray-700 text-justify text-lg">Even the most sophisticated transactions and reports can be accessed with the same ease. As a manager or owner, you can control how much access each of your staff has. It’s like having a customized system without the high cost of customization.</p>

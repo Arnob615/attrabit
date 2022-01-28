@@ -9,21 +9,21 @@ const Footer = () => {
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
                     <div class="text-center">
                         <h1 class="text-gray-700 font-bold text-xl">ICT Solution</h1>
-                        <a class="block text-gray-800 text-lg hover:text-slate-900" href="/cloud management" alt="">Cloud Management</a>
-                        <a class="block text-gray-800 text-lg hover:text-slate-900" href="#server storage management" alt="">Server Management</a>
-                        <a class="text-gray-800 text-lg hover:text-slate-900" href="Db-management" alt="">DB Management</a>
+                        <a class="block text-gray-600 text-lg hover:text-slate-900" href="/cloud management" alt="">Cloud Management</a>
+                        <a class="block text-gray-600 text-lg hover:text-slate-900" href="#server storage management" alt="">Server Management</a>
+                        <a class="text-gray-600 text-lg hover:text-slate-900" href="Db-management" alt="">DB Management</a>
                     </div>
                     <div class="text-center">
                         <h1 class="text-gray-700 text-xl font-bold">Network Solution</h1>
-                        <a class="block text-gray-800 text-lg hover:text-slate-900" href="data-network" alt="">Data Network</a>
-                        <a class="block text-gray-800 text-lg hover:text-slate-900" href="video-solution" alt="">Voice & Video Solution</a>
-                        <a class="text-gray-800 text-lg hover:text-slate-900" href="network-security" alt="">Network Security</a>
+                        <a class="block text-gray-600 text-lg hover:text-slate-900" href="data-network" alt="">Data Network</a>
+                        <a class="block text-gray-600 text-lg hover:text-slate-900" href="video-solution" alt="">Voice & Video Solution</a>
+                        <a class="text-gray-600 text-lg hover:text-slate-900" href="network-security" alt="">Network Security</a>
                     </div>
                     <div class="text-center">
                         <h1 class="text-gray-700 font-bold text-xl">Software Development</h1>
-                        <a class="block text-gray-800 text-lg hover:text-slate-900" href="web-development" alt="">Web Development</a>
-                        <a class="block text-gray-800 text-lg hover:text-slate-900" href="apps-development" alt="">Apps Development</a>
-                        <a class="text-gray-800 text-lg hover:text-slate-900" href="pos-solution" alt="">Pos Solution</a>
+                        <a class="block text-gray-600 text-lg hover:text-slate-900" href="web-development" alt="">Web Development</a>
+                        <a class="block text-gray-600 text-lg hover:text-slate-900" href="apps-development" alt="">Apps Development</a>
+                        <a class="text-gray-600 text-lg hover:text-slate-900" href="pos-solution" alt="">Pos Solution</a>
                     </div>
                     <div class="social-icon-wrapper text-center">
                         <h1 class="text-gray-700 font-bold text-xl">Connect Social Network</h1>

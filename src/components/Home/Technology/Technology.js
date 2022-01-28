@@ -20,7 +20,7 @@ const Technology = () => {
                             <div>
                                 <FontAwesomeIcon class="w-14 md:w-10 lg:w-10 hover:text-white bg-yellow-600 p-2 rounded-full cursor-pointer duration-300" icon={faAccessibleIcon}></FontAwesomeIcon>
                                 <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-900 my-3">Performance</h1>
-                                <p class="text-gray-600 text-xl md:text-lg lg:text-base text-justify">We focus on the excellent support and service we provide to our customers.</p>
+                                <p class="text-gray-600 text-lg text-justify">We focus on the excellent support and service we provide to our customers.</p>
                             </div>
                         </div>
                     </div>

@@ -25,22 +25,22 @@ const Contact = () => {
                         <div className="row pt-5 p-2">
                             <div className="input-form">
                                 <label className="text-white pr-20">Full Name</label>
-                                <input type="text" className="form-control w-full lg:w-full p-2 rounded" placeholder="Write your full name" name="first_name" required/>
+                                <input type="text" className="form-control w-full lg:w-full p-2 rounded" placeholder="Write Your Full Name" name="first_name" required/>
                             </div>
 
                             <div className="input-form py-5">
                                 <label className="pr-28 mb-2 text-white">Email</label>
-                                <input type="email" className="form-control  w-full  lg:w-full p-2 rounded" placeholder="Write your email address" name="email" required/>
+                                <input type="email" className="form-control  w-full  lg:w-full p-2 rounded" placeholder="Write Your Email Address" name="email" required/>
                             </div>
 
                             <div className="input-form">
                                 <label className="pr-24 mb-2 text-white">Subject</label>
-                                <input type="subject" className="form-control  w-full lg:w-full p-2 rounded" placeholder="Write your subject" name="subject" required/>
+                                <input type="subject" className="form-control  w-full lg:w-full p-2 rounded" placeholder="What's Your Subject" name="subject" required/>
                             </div>
 
                             <div className="text-area mt-5">
                                 <label className="text-white block">Message</label>
-                                <textarea className="form-control rounded w-96 lg:w-full" id="" rows="7" placeholder="Write your message here" name="Message" required></textarea>
+                                <textarea className="form-control rounded w-96 lg:w-full" id="" rows="7" placeholder="Write Your Message Details..." name="Message" required></textarea>
                             </div>
 
                             <div className="mt-4">
