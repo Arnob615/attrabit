@@ -17,8 +17,11 @@ const Service = () => {
         <section>
             <div class="max-w-screen-xl mx-auto">
                 <h1 class="ml-2 text-4xl md:text-center lg:text-center mt-20 mb-10 text-gray-800">OUR SERVICES</h1>
+
+                {/* All Content Wrapper */}
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7 p-3">
-                    <div class="">
+                    {/* Network Solution Content start */}
+                    <div>
                         <img class="w-80 md:w-72 lg:w-72 transform transition-all duration-500 hover:-translate-y-7" src="https://i.ibb.co/xGWYzxf/Social-network-3d-render-concept.jpg" alt=""/>
                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-800 mt-2">Network Solution</h1>
                         <p class="text-gray-600 my-2 text-justify text-lg">Attrabit is a Japanese firm dedicated to providing services and products to help our customers realize more utilization...</p>
@@ -30,6 +33,7 @@ const Service = () => {
                          </button>
                     </div>
                     
+                    {/* Software Development Content start */}
                     <div>
                         <img class="w-80 md:w-72 lg:w-72 transform transition-all duration-300 hover:-translate-y-7" src="https://i.ibb.co/gZ6P8zw/Social-network-3d-render-concept.jpg" alt=""/>
                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-800 mt-2">Software Development</h1>
@@ -42,6 +46,7 @@ const Service = () => {
                         </button>
                     </div>
 
+                    {/* ICT Solution Content start */}
                     <div>
                         <img class="w-80 md:w-72 lg:w-72 transform transition-all duration-500 hover:-translate-y-7" src="https://i.ibb.co/YPs3Dy1/ICT-Solution.png" alt=""/>
                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-800 mt-2">ICT Solution</h1>
@@ -53,6 +58,7 @@ const Service = () => {
                             <span>More Details</span>
                         </button>
                     </div>
+                    
                 </div>
             </div>
         </section>

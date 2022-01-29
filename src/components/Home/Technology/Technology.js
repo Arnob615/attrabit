@@ -7,7 +7,10 @@ const Technology = () => {
         <section>
             <div class="max-w-screen-xl mx-auto p-3">
                 <h1 class="text-3xl mt-24 mb-10 text-gray-800 ">ADVANCED TECHNOLOGY</h1>
-                <div class="content_wrapper grid lg:grid-cols-2 items-center">
+
+                {/* All Content Wrapper Start */}
+                <div class="grid lg:grid-cols-2 items-center">
+                    {/* Left Content Articles */}
                     <div class="left_content">
                         <p class="mb-8 text-gray-600 text-lg">We focus on Cloud Computing, Blockchain technology to ensure security and performance</p>
                         <div class="grid md:grid-cols-2 gap-7">
@@ -24,6 +27,8 @@ const Technology = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Right Content Image */}
                     <div class="right_content w-11/12 lg:w-10/12 md:pl-10 animate-bounce">
                         <img src="https://i.ibb.co/rHhsFRF/Technology.png" alt=""/>
                     </div>

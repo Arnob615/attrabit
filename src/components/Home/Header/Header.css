@@ -1,6 +1,6 @@
 .background_image {
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.52), 
-    rgba(10, 10, 10, 0.829)), url("../../../images//Cover-photo.jpg");
+    rgba(10, 10, 10, 0.829)), url("../../../images/Git-cover-photo.gif");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
