@@ -22,10 +22,10 @@ const Service = () => {
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7 p-3">
                     {/* Network Solution Content start */}
                     <div>
-                        <img class="w-80 md:w-72 lg:w-72 transform transition-all duration-500 hover:-translate-y-7" src="https://i.ibb.co/xGWYzxf/Social-network-3d-render-concept.jpg" alt=""/>
+                        <img class="w-80 rounded md:w-72 lg:w-72 transform transition-all duration-500 hover:-translate-y-7" src="https://i.ibb.co/xGWYzxf/Social-network-3d-render-concept.jpg" alt=""/>
                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-800 mt-2">Network Solution</h1>
                         <p class="text-gray-600 my-2 text-justify text-lg">Attrabit is a Japanese firm dedicated to providing services and products to help our customers realize more utilization...</p>
-                        <button onClick={handleNetworkSolution} class="bg-gray-900 text-white px-7 py-3 transform duration-300 hover:translate-x-4 hover:bg-gray-700 flex">
+                        <button onClick={handleNetworkSolution} class="bg-gray-900 text-white px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-700 flex">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
                             </svg>
@@ -35,10 +35,10 @@ const Service = () => {
                     
                     {/* Software Development Content start */}
                     <div>
-                        <img class="w-80 md:w-72 lg:w-72 transform transition-all duration-300 hover:-translate-y-7" src="https://i.ibb.co/gZ6P8zw/Social-network-3d-render-concept.jpg" alt=""/>
+                        <img class="w-80 rounded md:w-72 lg:w-72 transform transition-all duration-300 hover:-translate-y-7" src="https://i.ibb.co/gZ6P8zw/Social-network-3d-render-concept.jpg" alt=""/>
                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-800 mt-2">Software Development</h1>
                         <p class="text-gray-600 my-2 text-justify text-lg">Attrabit is a leading software development outsourcing company focusing on IT consulting and programming services...</p>
-                        <button onClick={handleSoftwareDevelopment} class="bg-gray-900 text-white px-7 py-3 transform duration-300 hover:translate-x-4 hover:bg-gray-700 flex">
+                        <button onClick={handleSoftwareDevelopment} class="bg-gray-900 text-white px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-700 flex">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
                             </svg>
@@ -48,10 +48,10 @@ const Service = () => {
 
                     {/* ICT Solution Content start */}
                     <div>
-                        <img class="w-80 md:w-72 lg:w-72 transform transition-all duration-500 hover:-translate-y-7" src="https://i.ibb.co/YPs3Dy1/ICT-Solution.png" alt=""/>
+                        <img class="w-80 rounded md:w-72 lg:w-72 transform transition-all duration-500 hover:-translate-y-7" src="https://i.ibb.co/YPs3Dy1/ICT-Solution.png" alt=""/>
                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-800 mt-2">ICT Solution</h1>
                         <p class="text-gray-600 my-2 text-justify text-lg">Within our global network of skills and experience we combine a unique insight into how ICT can embrace, support...</p>
-                        <button onClick={handleIctSolution} class="bg-gray-900 text-white px-7 py-3 transform duration-300 hover:translate-x-4 hover:bg-gray-700 flex">
+                        <button onClick={handleIctSolution} class="bg-gray-900 text-white px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-700 flex">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
                             </svg>
