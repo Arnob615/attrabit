@@ -4,6 +4,7 @@ import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Zoom } from 'react-reveal';
+import './Contact.css';
 const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
@@ -19,8 +20,8 @@ const Contact = () => {
 
     return (
         <section class="p-10">
-            <div class="max-w-screen-xl mx-auto bg-gray-600">
-                <h1 class="text-4xl pt-16 mb-10 p-4 text-white lg:text-center">CONTACT US</h1>
+            <div class="max-w-screen-xl mx-auto background rounded-3xl">
+                <h1 class="text-4xl pt-16 mb-10 p-4 text-white text-center">CONTACT US</h1>
                 <div class="grid lg:grid-cols-2 justify-between gap-4 md:p-5 lg:p-5">
 
                     {/* Contact Form Start */}
@@ -48,7 +49,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className="mt-4">
-                                    <input type="submit" class="submit-button transform duration-300 rounded text-lg bg-yellow-500 hover:bg-yellow-700 hover:text-white hover:translate-x-4 text-gray-900 px-8 py-3 cursor-pointer" value="Send Message"/>
+                                    <input type="submit" class="submit-button transform duration-300 rounded text-lg bg-yellow-500 hover:bg-yellow-700 hover:text-white hover:translate-x-4 text-gray-200 px-8 py-3 cursor-pointer" value="Send Message"/>
                                 </div>
                             </div>
                         </form>
@@ -56,8 +57,8 @@ const Contact = () => {
 
                     {/* Right Content in form */}
                     <Zoom bottom duration={1000}>
-                        <div className="right-content text-white px-6 lg:px-40">
-                            <h3 className="text-4xl my-5 pb-4 ">GET IN TOUCH</h3>
+                        <div className="text-white px-6 lg:px-40">
+                            <h3 className="text-2xl md:text-2xl xl:text-3xl my-5 pb-4 ">GET IN TOUCH</h3>
                             <div className="address my-4">
                             <FontAwesomeIcon class="w-8 pb-2 hover:text-red-600 cursor-pointer duration-300" icon={faPeriscope}></FontAwesomeIcon>
                                 <h4>Address</h4>

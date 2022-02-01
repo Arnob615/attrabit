@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Fade } from 'react-reveal';
 import {
   BrowserRouter as Router, Link, Route, Routes
 } from "react-router-dom";
@@ -13,7 +12,6 @@ import SoftwareDevelopment from './components/Home/Service/SoftwareDevelopment/S
 import Login from './components/Login/Login';
 import ScrollToTop from './components/scroll/ScrollToTop';
 import Signup from './components/Signup/Signup';
-
 
 function App() {
   const [isShow, setIsShow] = useState(false);
@@ -35,10 +33,10 @@ function App() {
   window.addEventListener('scroll', changeBackground);
 
   return (
-    <main class="bg-gray-200">
+    <main class="main-background">
       <Router>
         {/* Nav link start*/}
-          <nav class={changeNavbar ? 'bg-gray-900 fixed inset-x-0 top-0 z-50' : 'bg-gray-800'}>
+          <nav class={changeNavbar ? 'bg-gray-900 fixed inset-x-0 top-0 z-50' : 'bg-none'}>
             <div class="max-w-screen-xl mx-auto flex justify-between p-3 items-center h-16">
               <div class="flex">
                 {/* Logo is here */}

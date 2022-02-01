@@ -89,7 +89,7 @@ const Login = () => {
             <div class="max-w-screen-xl mx-auto p-10">
 
                 {/* Login Form Wrapper */}
-                <div class="container bg-gray-600 p-20 rounded text-gray-200">
+                <div class="container background p-20 rounded-3xl text-gray-200">
                     <h2 class="text-center text-4xl">Login Form </h2>
 
                     {/* Login Form */}

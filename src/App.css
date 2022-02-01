@@ -1,3 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.main-background {
+    background-color: #0C1C3B;
+    /* background-color: #19192C; */
+}
