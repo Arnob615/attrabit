@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router, Link, Route, Routes
 } from "react-router-dom";
 import './App.css';
+import BusinessConsultancy from './components/Home/BusinessConsultancy/BusinessConsultancy';
 import Contact from './components/Home/Contact/Contact';
 import Footer from './components/Home/Footer/Footer';
 import Home from './components/Home/Home/Home';
@@ -47,9 +48,12 @@ function App() {
                 </div>
 
                 {/* Main Navbar part */}
-                <div class= "hidden lg:flex text-gray-200 space-x-5 ml-14 items-center text-sm">
+                <div class= "hidden lg:flex text-gray-300 space-x-5 ml-14 items-center text-sm">
                   <Link class=" transform duration-300 bg-yellow-600 px-4 py-1 rounded hover:bg-yellow-800" to="/">
                     <a href="/home" alt="">HOME</a>
+                  </Link>
+                  <Link class="hover:text-yellow-400 transform duration-300" to="/businessConsultancy">
+                    <a href="/business">BUSINESS</a>
                   </Link>
                   <Link class="hover:text-yellow-400 transform duration-300" to="/networkSolution">
                     <a href="/network">NETWORK SOLUTION</a>
@@ -85,6 +89,7 @@ function App() {
             {/* This Navbar is for mobile menu */}
               <div class={isShow ? 'block' : 'hidden'} >
                 <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/home">HOME</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/businessConsultancy">BUSINESS CONSULTANCY</a>
                 <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/networkSolution">NETWORK SOLUTION</a>
                 <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/softwareDevelopment">SOFTWARE DEVELOPMENT</a>
                 <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/ictSolution">ICT SOLUTION</a>
@@ -99,6 +104,7 @@ function App() {
           <Route path="/networkSolution" element={<NetworkSolution/>}/>
           <Route path="/softwareDevelopment" element={<SoftwareDevelopment/>}/>
           <Route path="/ICTSolution" element={<ICTSolution/>}/>
+          <Route path="/businessConsultancy" element={<BusinessConsultancy/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/Login" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/>
