@@ -85,22 +85,22 @@ const Login = () => {
     }
 
     return (
-        <div>
-            <div class="max-w-screen-xl mx-auto p-10">
+        <div class="p-10">
+            <div class="max-w-screen-xl mx-auto">
 
                 {/* Login Form Wrapper */}
-                <div class="container background p-20 rounded-3xl text-gray-200">
+                <div class="container background p-20 rounded-3xl text-gray-200 bg-sky-900">
                     <h2 class="text-center text-4xl">Login Form </h2>
 
                     {/* Login Form */}
                     <form class="p-10">
                         <div className="form-group">
                             <label htmlFor="email">Email</label>
-                            <input type="text" name="email" className="form-control w-full lg:w-full p-2 rounded mb-5 text-black" placeholder="Email Address" required />
+                            <input type="text" name="email" className="form-control w-full h-12 p-2 rounded mb-5 text-black" placeholder="Email Address" required />
                         </div>
                         <div className="form-group">
                             <label htmlFor="password">Password</label>
-                            <input type="password" name="password" className="form-control w-full lg:w-full p-2 rounded mb-5 text-black" placeholder="Password" required />
+                            <input type="password" name="password" className="form-control w-full h-12 p-2 rounded mb-5 text-black" placeholder="Password" required />
                         </div>
 
                         {/* Checkbox and Forgot password part */}
@@ -123,7 +123,7 @@ const Login = () => {
 
                         {/* Submit button */}
                         <div className="form-group">
-                            <input type="submit" value="Login" className="text-gray-100 text-lg cursor-pointer w-full bg-yellow-600 hover:bg-yellow-700 rounded h-10 mb-10" />
+                            <input type="submit" value="Login" className="text-gray-100 text-lg cursor-pointer w-full h-12 bg-yellow-600 hover:bg-yellow-700 rounded h-10 mb-10" />
                         </div>
 
                         {/* Others login system */}

@@ -85,30 +85,30 @@ const Signup = () => {
     }
 
     return (
-        <div>
-            <div class="max-w-screen-xl mx-auto p-10">
+        <div class="p-10">
+            <div class="max-w-screen-xl mx-auto">
 
                 {/* Signup Form Wrapper */}
-                <div class="container background p-20 rounded-3xl text-gray-200">
+                <div class="container background p-20 rounded-3xl text-gray-200 bg-sky-900">
                     <h2 class="text-center text-4xl">Create an account</h2>
 
                     {/* Signup Form */}
                     <form class="p-10">
                         <div className="form-group">
                             <label htmlFor="name">Name</label>
-                            <input type="name" name="name" className="form-control w-full lg:w-full p-2 rounded mb-5 text-black" placeholder="Full Name" required />
+                            <input type="name" name="name" className="form-control w-full lg:w-full h-12 p-2 rounded mb-5 text-black" placeholder="Full Name" required />
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email</label>
-                            <input type="text" name="email" className="form-control w-full lg:w-full p-2 rounded mb-5 text-black" placeholder="Email Address" required />
+                            <input type="text" name="email" className="form-control w-full lg:w-full h-12 p-2 rounded mb-5 text-black" placeholder="Email Address" required />
                         </div>
                         <div className="form-group">
                             <label htmlFor="password">Password</label>
-                            <input type="password" name="password" className="form-control w-full lg:w-full p-2 rounded mb-5 text-black" placeholder="Password" required />
+                            <input type="password" name="password" className="form-control w-full h-12 lg:w-full p-2 rounded mb-5 text-black" placeholder="Password" required />
                         </div>
                         <div className="form-group">
                             <label htmlFor="confirmPassword">Confirm Password</label>
-                            <input type="password" name="confirmPassword" className="form-control w-full lg:w-full p-2 rounded mb-5 text-black" placeholder="Confirm Password" required />
+                            <input type="password" name="confirmPassword" className="form-control w-full h-12 lg:w-full p-2 rounded mb-5 text-black" placeholder="Confirm Password" required />
                         </div>
 
                         {/* Login Form Link */}
@@ -119,7 +119,7 @@ const Signup = () => {
 
                         {/* Submit button */}
                         <div className="form-group">
-                            <input type="submit" value="Sign Up" className="text-gray-100 text-lg cursor-pointer w-full bg-yellow-600 hover:bg-yellow-700 rounded h-10 mb-10" />
+                            <input type="submit" value="Sign Up" className="text-gray-100 text-lg cursor-pointer w-full h-12 bg-yellow-600 hover:bg-yellow-700 rounded h-10 mb-10" />
                         </div>
 
                         {/* Others login system */}

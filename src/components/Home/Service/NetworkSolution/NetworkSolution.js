@@ -9,9 +9,13 @@ const NetworkSolution = () => {
                 {/* All Content Wrapper */}
                 <div class="p-3">
                     {/* Network Solution Content start */}
-                    <Fade bottom duration={1000}>
+                    <Fade bottom duration={2000}>
                         <div>
-                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="transform duration-300 hover:text-orange-400">NETWORK</span> SOLUTION</h2>
+                        <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="text-yellow-500">NETWORK</span> SOLUTION</h2>
+                        </div>
+                    </Fade>
+                    <Fade bottom delay={1000}>
+                        <div>
                             <p class="text-gray-400 text-justify text-base">Attrabit is a Japanese firm dedicated to providing services and products to help our customers realize more utilization and productivity from their existing infrastructure.</p>
                             <p class="text-gray-400 text-justify py-2 text-base">We are specializing in building robust networks, deploying network management systems, and implementing data security solutions. We have more than 10 years of network engineering experience with the latest technologies to build fast, secure, and highly-available enterprise networks.</p>
                             <p class="text-gray-400 text-justify text-base">We have a reputation for innovative solutions, greater customer service and quality control. we understand the value of top notch networking talent.</p>
@@ -23,7 +27,7 @@ const NetworkSolution = () => {
                     {/* Data Network Content start */}
                     
                     <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
-                        <Fade bottom duration={1000}>
+                        <Fade bottom delay={1000} duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">DATA NETWORK</h2>
                                 <p class="text-gray-400 text-justify text-base">From confidential company information to sensitive financial records, the data you transfer on a daily basis ensures the successful operation and credibility of your business. Every time you transport this data, you place it at risk. To reduce these risks and to stay current with progressing compliance issues, you need a safe and reliable networking solution.</p>
@@ -33,15 +37,15 @@ const NetworkSolution = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="p-10 mt-16 animate-pulse">
-                            <img src="https://i.ibb.co/kGsNt3Q/undraw-Connection-re-lcud.png" alt="" />
+                        <div class="p-16 t-0 md:mt-16 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/kGsNt3Q/undraw-Connection-re-lcud.png" alt="" />
                         </div>
                     </div>
 
                     {/* Voice and video solution Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 my-10 items-center">
-                        <div class="animate-bounce">
-                            <img class="p-6 " src="https://i.ibb.co/qpHCq3G/voice-and-video.png" alt="" />
+                    <div class="grid md:grid-cols-2 gap-6 my-20 items-center">
+                        <div class="p-6 mt-0 md:mt-16 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/qpHCq3G/voice-and-video.png" alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -75,8 +79,8 @@ const NetworkSolution = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="animate-pulse">
-                            <img class="p-10 mt-16" src="https://i.ibb.co/4MtKp6h/network-security.png" alt="" />
+                        <div class="p-10 mt-20 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/4MtKp6h/network-security.png" alt="" />
                         </div>
                     </div>
                 </div>

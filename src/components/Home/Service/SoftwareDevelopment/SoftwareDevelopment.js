@@ -9,9 +9,13 @@ const SoftwareDevelopment = () => {
                 {/* All Content Wrapper Start */}
                 <div class="p-3">
                     {/* Software Development Content Start */}
-                    <Fade bottom duration={1000}>
+                    <Fade bottom duration={2000}>
                         <div>
-                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"><span class="transform duration-300 hover:text-orange-400">SOFTWARE</span> DEVELOPMENT</h2>
+                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"><span class="text-yellow-500">SOFTWARE</span> DEVELOPMENT</h2>
+                        </div>
+                    </Fade>
+                    <Fade bottom delay={1000}>
+                        <div>
                             <p class="text-gray-400 text-justify text-base">Attrabit is a Japanese firm dedicated to providing services and products to help our customers realize more utilization and productivity from their existing infrastructure.</p>
                             <p class="text-gray-400 text-justify py-2 text-base">We are specializing in building robust networks, deploying network management systems, and implementing data security solutions. We have more than 10 years of network engineering experience with the latest technologies to build fast, secure, and highly-available enterprise networks.</p>
                             <p class="text-gray-400 text-justify text-base">We have a reputation for innovative solutions, greater customer service and quality control. we understand the value of top notch networking talent.</p>
@@ -22,32 +26,32 @@ const SoftwareDevelopment = () => {
 
                     {/* Web Development Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
-                    <Fade bottom duration={1000}>
-                        <div>
-                            <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">WEB DEVELOPMENT</h2>
-                            <p class="text-gray-400 text-justify text-base">In this mobile age, impressive website design is a must — no matter what devices your visitors are using. We offer unique, award-winning, and fully responsive website designs from the most talented designers in the industry. Our personalized plans and packages are tailored to meet your individual needs and fit within your budget, and the results are sure to impress each and every visitor to your site.Are you looking to leverage your online presence but lack a coherent, aesthetically pleasing website?</p>
-                            <p class="text-gray-400 text-justify py-2 text-base">We design award-winning, sharp, cutting-edge websites that produce enhanced results for establishing your online brand. Our custom web design services can provide you the following:</p>
-                            <p class="text-gray-400 text-justify text-base">• Personalized plans and packages tailored to meet your individual web design needs and fit within your budget</p>
-                            <p class="text-gray-400 text-justify py-2 text-base"> • Unique, award-winning designs and layouts from the most knowledgeable, highly-talented web designers in the industry</p>
-                            <p class="text-gray-400 text-justify text-base">• Web design services ranging from website design and redesign projects to business blog designs and social media profile design all with conversions for you in mind.</p>
-                        </div>
-                    </Fade>
+                        <Fade bottom delay={1000} duration={1000}>
+                            <div>
+                                <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">WEB DEVELOPMENT</h2>
+                                <p class="text-gray-400 text-justify text-base">In this mobile age, impressive website design is a must — no matter what devices your visitors are using. We offer unique, award-winning, and fully responsive website designs from the most talented designers in the industry. Our personalized plans and packages are tailored to meet your individual needs and fit within your budget, and the results are sure to impress each and every visitor to your site.Are you looking to leverage your online presence but lack a coherent, aesthetically pleasing website?</p>
+                                <p class="text-gray-400 text-justify py-2 text-base">We design award-winning, sharp, cutting-edge websites that produce enhanced results for establishing your online brand. Our custom web design services can provide you the following:</p>
+                                <p class="text-gray-400 text-justify text-base">• Personalized plans and packages tailored to meet your individual web design needs and fit within your budget</p>
+                                <p class="text-gray-400 text-justify py-2 text-base"> • Unique, award-winning designs and layouts from the most knowledgeable, highly-talented web designers in the industry</p>
+                                <p class="text-gray-400 text-justify text-base">• Web design services ranging from website design and redesign projects to business blog designs and social media profile design all with conversions for you in mind.</p>
+                            </div>
+                        </Fade>
 
                         {/* Right Content Image */}
                         <div class="p-10 mt-20 animate-pulse">
-                            <img src="https://i.ibb.co/NC3PBFF/Programming.png" alt="" />
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/NC3PBFF/Programming.png" alt="" />
                         </div>
                     </div>
 
                     {/* Apps Development Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 my-10 items-center">
-                        <div class="animate-bounce">
-                            <img class="p-6 mt-28" src="https://i.ibb.co/T1crtvr/Apps-development.png" alt="" />
+                        <div class="p-6 mt-28 animate-bounce">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/T1crtvr/Apps-development.png" alt="" />
                         </div>
 
                         {/* Right Content Start */}
                         <Fade bottom duration={1000}>
-                            <div class="py-16">
+                            <div class="py-20">
                                 <h2 class="text-3xl my-10 px-10 text-center md:text-left text-gray-200">APPS DEVELOPMENT</h2>
                                 <div class="mx-10">
                                     <p class="text-gray-400 text-justify text-base">Attrabit offers development of powerful, one-of-a-kind software intended to meet customers’ unique demands. Our skilled specialists know the game of business and deliver successful solutions that accord with all the specified requirements while invariably staying within time and budget limits. Along with full-cycle custom software development, we provide software maintenance and platform-based customization.</p>
@@ -74,8 +78,8 @@ const SoftwareDevelopment = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="animate-bounce">
-                            <img class="p-10 mt-28" src="https://i.ibb.co/FHpYjrH/Pos-solution.jpg" alt="" />
+                        <div class="p-10 mt-0 md:mt-28 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/FHpYjrH/Pos-solution.jpg" alt="" />
                         </div>
                     </div>
                 </div>

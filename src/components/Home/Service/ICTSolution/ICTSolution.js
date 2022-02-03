@@ -3,22 +3,26 @@ import { Fade } from 'react-reveal';
 
 const ICTSolution = () => {
     return (
-        <section>
+        <section class="">
             <div class="max-w-screen-xl mx-auto">
 
                 {/* All Content Wrapper Start */}
                 <div class="content_wrapper p-3">
                     {/* ICT Solution Details Here */}
-                    <Fade bottom duration={1000}>
+                    <Fade bottom duration={2000}>
                         <div>
-                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10">ICT <span class="transform duration-300 hover:text-orange-400">SOLUTION</span></h2>
+                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10">ICT <span class="text-yellow-500">SOLUTION</span></h2>
+                        </div>
+                    </Fade>
+                    <Fade bottom delay={1000}>
+                        <div>
                             <p class="text-gray-400 text-justify text-base">Within our global network of skills and experience we combine a unique insight into how ICT can embrace, support and drive strategic business processes with a portfolio of sophisticated global technology partners. We work to attain the highest possible accreditation with each of our major partners – Cisco, HP, NetApp, VMware, Ca Technologies, ServiceNow and IBM – and have deployed data centre, communications and collaboration, and managed service expertise with almost 50 customers worldwide.</p>
                         </div>
                     </Fade>
 
                     {/* Service storage Management Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
-                        <Fade bottom duration={1000}>
+                    <div class="grid lg:grid-cols-2 gap-6 mt-24 items-center">
+                        <Fade bottom delay={1000} duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">SERVER STORAGE MANAGEMENT</h2>
                                 <p class="text-gray-400 text-base text-justify">With more than 20 years of experience in the server and storage space. Attrabit Engineers of server and storage practice focus on providing design, development, and support and maintenance services to the ecosystem which include dedicated server hosting, server networking and backup   cloud technology with more than 20 years of experience.</p>
@@ -29,20 +33,20 @@ const ICTSolution = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="p-20 mt-10 animate-bounce">
-                            <img src="https://i.ibb.co/xDQpSYn/Server-storage.jpg" alt="" />
+                        <div class="p-20 mt-0 lg:mt-20 mx-auto animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/xDQpSYn/Server-storage.jpg" alt="" />
                         </div>
                     </div>
 
                     {/* Db Management Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 my-10 items-center">
-                        <div class="p-10 mt-20 animate-pulse">
-                            <img src="https://i.ibb.co/sJm5fb3/Db-management.png" alt="" />
+                    <div class="grid lg:grid-cols-2 gap-6 my-0 md:my-20 mx-auto items-center">
+                        <div class="p-10 mt-0 lg:mt-20 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/sJm5fb3/Db-management.png" alt="" />
                         </div>
 
                         {/* Right Content Start */}
                         <Fade bottom duration={1000}>
-                            <div class="mx-10">
+                            <div class="my-20">
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">DB-MANAGEMENT</h2>
                                 <div>
                                     <p class="text-gray-400 text-justify text-base">Comprehensive Database Consulting Services.</p>
@@ -64,8 +68,8 @@ const ICTSolution = () => {
                         </Fade>
 
                         {/* Right Content Image  */}
-                        <div class="p-10 mt-28 animate-bounce">
-                            <img src="https://i.ibb.co/hmdqR8X/intelisence-security.png" alt="" />
+                        <div class="p-10 mt-0 lg:mt-20 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/hmdqR8X/intelisence-security.png" alt="" />
                         </div>
                     </div>
                     

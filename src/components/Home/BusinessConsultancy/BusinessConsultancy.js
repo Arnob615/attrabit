@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
+import './BusinessConsultancy';
 
 const BusinessConsultancy = () => {
     return (
@@ -9,21 +10,27 @@ const BusinessConsultancy = () => {
                 {/* All Content Wrapper */}
                 <div class="p-3">
                     {/* Network Solution Content start */}
-                    <Fade bottom duration={1000}>
                         <div>
-                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="transform duration-300 hover:text-orange-400">BUSINESS</span> CONSULTANCY</h2>
-                            <p class="text-gray-400 text-justify text-base">Our consortium of seasoned consultants positions itself as a dynamic and client-centric consultancy firm in the Offshore Business Development, Network Services and Solutions, ICT Solutions, Software Development, including a broad outsourcing portfolio in the IT industry.</p>
-                            <p class="text-gray-400 text-justify py-2 text-base">With our partner companies in Indian sub-continent we are equipped with years of programming, communications and IT experience accumulated in its talented programmers, designers and engineers.</p>
-                            <p class="text-gray-400 text-justify text-base">We strive in not only providing the most relevant programming and networking proposition to your business needs, but also help you connect with the right specialist for the job by providing quality outsourcing for IT functions of your business.</p>
-                            <p class="text-gray-400 text-justify py-2 text-base">Our team has vast industry experience that crosses many vertical markets like Automobile, Commercial & Federal financial Management, Financial Services and Mortgage Banking, HealthCare, Insurance, Telecommunications. Our agility and flexibility in customizing solutions to fit your business needs and testing the quality of those solutions in an end to end setup either manually or in an automated fashion is the main benefit to our clients. .</p>
-                            <p class="text-gray-400 text-justify text-base">With our depth of the knowledge and resources, we can field complete project teams or skilled individuals to augment your team quickly. With our responsive, flexible and measured approach, we’re sure to have a solution that fits your project scale in all terms of business considerations. Let us meet your challenge and help your organization meet its highest potential through our leveraging of IT assets and infrastructure.</p>
+                            <Fade bottom duration={2000}>
+                                <div>
+                                    <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="text-yellow-500">BUSINESS</span> CONSULTANCY</h2>
+                                </div>
+                            </Fade>
+                            <Fade bottom delay={1000}>
+                                <div>
+                                    <p class="text-gray-400 text-justify text-base">Our consortium of seasoned consultants positions itself as a dynamic and client-centric consultancy firm in the Offshore Business Development, Network Services and Solutions, ICT Solutions, Software Development, including a broad outsourcing portfolio in the IT industry.</p>
+                                    <p class="text-gray-400 text-justify py-2 text-base">With our partner companies in Indian sub-continent we are equipped with years of programming, communications and IT experience accumulated in its talented programmers, designers and engineers.</p>
+                                    <p class="text-gray-400 text-justify text-base">We strive in not only providing the most relevant programming and networking proposition to your business needs, but also help you connect with the right specialist for the job by providing quality outsourcing for IT functions of your business.</p>
+                                    <p class="text-gray-400 text-justify py-2 text-base">Our team has vast industry experience that crosses many vertical markets like Automobile, Commercial & Federal financial Management, Financial Services and Mortgage Banking, HealthCare, Insurance, Telecommunications. Our agility and flexibility in customizing solutions to fit your business needs and testing the quality of those solutions in an end to end setup either manually or in an automated fashion is the main benefit to our clients. .</p>
+                                    <p class="text-gray-400 text-justify text-base">With our depth of the knowledge and resources, we can field complete project teams or skilled individuals to augment your team quickly. With our responsive, flexible and measured approach, we’re sure to have a solution that fits your project scale in all terms of business considerations. Let us meet your challenge and help your organization meet its highest potential through our leveraging of IT assets and infrastructure.</p>
+                                </div>
+                            </Fade>
                         </div>
-                    </Fade>
 
                     {/* Data Network Content start */}
                     
                     <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
-                        <Fade bottom duration={1000}>
+                        <Fade bottom delay={1000} duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">FDI MARKET RESEARCH</h2>
                                 <p class="text-gray-400 text-justify text-base">Analysing your business, the Key to success! Indo Tech uses a combination of enhanced secondary research techniques (analysis of customer/industry/stakeholder/competitor etc.) and structured primary research methodologies (for reliable data efficiency) in our approach to research tools.</p>
@@ -35,15 +42,15 @@ const BusinessConsultancy = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="p-20 mx-auto mt-16 animate-pulse">
-                            <img src="https://i.ibb.co/LxgGPSP/FDI-Marketing.png" alt="" />
+                        <div class="p-16 mx-auto mt-0 md:mt-16 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/LxgGPSP/FDI-Marketing.png" alt="" />
                         </div>
                     </div>
 
                     {/* Voice and video solution Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 my-20 items-center">
-                        <div class="animate-pulse">
-                            <img class="p-16 mt-20" src="https://i.ibb.co/my84kfg/Company-formation.png" alt="" />
+                    <div class="grid md:grid-cols-2 gap-6 my-0 md:my-20 items-center">
+                        <div class="p-20 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/my84kfg/Company-formation.png" alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -88,8 +95,8 @@ const BusinessConsultancy = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="animate-pulse">
-                            <img class="p-10 mt-16" src="https://i.ibb.co/HhJVJdV/Operation-management.png" alt="" />
+                        <div class="p-16 mt-0 md:mt-16 animate-pulse">
+                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/HhJVJdV/Operation-management.png" alt="" />
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,7 @@ function App() {
     <main class="main-background">
       <Router>
         {/* Nav link start*/}
-          <nav class={changeNavbar ? 'bg-gray-900 fixed inset-x-0 top-0 z-50' : 'bg-none'}>
+          <nav class={changeNavbar ? 'bg-gray-600 fixed inset-x-0 top-0 z-50' : 'bg-gray-600'}>
             <div class="max-w-screen-xl mx-auto flex justify-between p-3 items-center h-16">
               <div class="flex">
                 {/* Logo is here */}
@@ -73,7 +73,7 @@ function App() {
               {/* Login and Signup is here part */}
               <div class="hidden lg:flex space-x-3 items-center">
                 <Link class="text-sm bg-yellow-600 px-4 py-1 rounded text-white transform duration-300 hover:bg-yellow-800" to="/login">LOGIN</Link>
-                <Link class="text-sm bg-gray-500 px-4 py-1 text-white rounded transform duration-300 hover:bg-gray-600" to="signup">SIGN UP</Link>
+                <Link class="text-sm bg-gray-700 px-4 py-1 text-white rounded transform duration-300 hover:bg-gray-800" to="signup">SIGNUP</Link>
               </div>
               
               {/* Mobile button icon part */}
@@ -88,12 +88,12 @@ function App() {
             
             {/* This Navbar is for mobile menu */}
               <div class={isShow ? 'block' : 'hidden'} >
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/home">HOME</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/businessConsultancy">BUSINESS CONSULTANCY</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/networkSolution">NETWORK SOLUTION</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/softwareDevelopment">SOFTWARE DEVELOPMENT</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/ictSolution">ICT SOLUTION</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-500 hover:text-gray-100 transform duration-300" href="/contact">CONTACT</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/home">HOME</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/businessConsultancy">BUSINESS CONSULTANCY</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/networkSolution">NETWORK SOLUTION</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/softwareDevelopment">SOFTWARE DEVELOPMENT</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/ictSolution">ICT SOLUTION</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/contact">CONTACT</a>
               </div>
             </nav>
         {/* nav link end */}
