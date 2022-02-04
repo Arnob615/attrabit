@@ -56,19 +56,19 @@ function App() {
                   <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded " to="/">
                     <a href="/home" alt="">HOME</a>
                   </Link>
-                  <Link class="hover:text-yellow-400 transform duration-300" to="/businessConsultancy">
+                  <Link class="hover:text-sky-400 transform duration-300" to="/businessConsultancy">
                     <a href="/business">BUSINESS</a>
                   </Link>
-                  <Link class="hover:text-yellow-400 transform duration-300" to="/networkSolution">
+                  <Link class="hover:text-sky-400 transform duration-300" to="/networkSolution">
                     <a href="/network">NETWORK SOLUTION</a>
                   </Link>
-                  <Link class="hover:text-yellow-400 transform duration-300" to="/softwareDevelopment">
+                  <Link class="hover:text-sky-400 transform duration-300" to="/softwareDevelopment">
                     <a href="/development">SOFTWARE DEVELOPMENT</a>
                   </Link>
-                  <Link class="hover:text-yellow-400 transform duration-300" to="/ictSolution">
+                  <Link class="hover:text-sky-400 transform duration-300" to="/ictSolution">
                     <a href="/ict">ICT SOLUTION</a>
                   </Link>
-                  <Link class="hover:text-yellow-400 transform duration-300" to="/contact">
+                  <Link class="hover:text-sky-400 transform duration-300" to="/contact">
                     <a href="/contact">CONTACT US</a>
                   </Link>
                 </div>

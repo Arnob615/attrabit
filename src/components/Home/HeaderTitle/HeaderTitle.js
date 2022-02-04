@@ -10,7 +10,7 @@ const HeaderTitle = () => {
                     
                     {/* Content part */}
                     <div>
-                        <h2 class="text-center text-gray-200 text-xl md:text-3xl lg:text-4xl xl:text-5xl pt-16 md:pt-28 lg:pt-28">ATTRABIT ICT SOLUTION</h2>
+                        <h2 class="text-center text-gray-200 text-xl md:text-3xl lg:text-4xl xl:text-5xl pt-16 md:pt-28 lg:pt-28">ATTRABIT AND ABSOLUTE SOLUTION</h2>
                         <p class="py-7 text-center text-lg text-gray-200">For Better experience, Complete ICT Solutions, and Software Development you can trust our company blindly. Save time and reduce costs with intuitive Unified Endpoint Management from Attrabit</p>
                     </div>
 

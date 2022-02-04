@@ -61,8 +61,8 @@ const OthersLogin = () => {
                 }
                 <div class="flex gap-10 justify-center">
                     <FontAwesomeIcon onClick={() => handleOthersLogin(googleProvider)} class="w-7 text-center text-sky-600 hover:text-sky-400 cursor-pointer transform duration-300" icon={faGoogle}></FontAwesomeIcon>
-                    <FontAwesomeIcon onClick={() => handleOthersLogin(githubProvider)} class="w-8 text-center text-black hover:text-gray-800 cursor-pointer transform duration-300" icon={faGithub}></FontAwesomeIcon>
-                    <FontAwesomeIcon onClick={() => handleOthersLogin(facebookProvider)} class="w-8 text-center transform text-cyan-700 hover:text-cyan-600 cursor-pointer duration-300" icon={faFacebook}></FontAwesomeIcon>
+                    <FontAwesomeIcon onClick={() => handleOthersLogin(githubProvider)} class="w-8 text-center text-black hover:text-gray-900 cursor-pointer transform duration-300" icon={faGithub}></FontAwesomeIcon>
+                    <FontAwesomeIcon onClick={() => handleOthersLogin(facebookProvider)} class="w-8 text-center transform text-cyan-600 hover:text-cyan-500 cursor-pointer duration-300" icon={faFacebook}></FontAwesomeIcon>
                     <FontAwesomeIcon onClick={() => handleOthersLogin(yahooProvider)} class="w-9 text-center transform text-blue-600 hover:text-blue-400 cursor-pointer duration-300" icon={faYahoo}></FontAwesomeIcon>
                 </div>
                 
