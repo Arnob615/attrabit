@@ -47,7 +47,7 @@ const Signup = () => {
                         </div>
 
                         <div className="form-group">
-                            <input type="submit" value="Sign Up" className="text-gray-100 text-lg cursor-pointer w-full h-12 bg-yellow-600 hover:bg-yellow-700 rounded mb-10" />
+                            <input type="submit" value="Sign Up" className="text-gray-100 text-lg cursor-pointer w-full h-12 bg-sky-600 hover:bg-yellow-700 rounded mb-10" />
                         </div>
 
                         {/* Others login system */}
