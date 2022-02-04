@@ -40,6 +40,7 @@ function App() {
     <main class="main-background">
       <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
       <Router>
+      <ScrollToTop/>
         {/* Nav link start*/}
           <nav class={changeNavbar ? 'bg-gray-600 fixed inset-x-0 top-0 z-50' : 'bg-gray-600'}>
             <div class="max-w-screen-xl mx-auto flex justify-between p-3 items-center h-16">
@@ -120,7 +121,7 @@ function App() {
         </div>
       </Router>
       </UserContext.Provider>
-      <ScrollToTop/>
+      
     </main>
   );
 }

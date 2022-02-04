@@ -1,10 +1,19 @@
 import { useEffect, useState } from "react";
 import { BiArrowFromBottom } from 'react-icons/bi';
+import { useLocation } from "react-router-dom";
 import { classNames } from '../../utils/classNames';
 
 
 const ScrollToTop = () => {
     const [isVisible, setIsVisible] = useState(false);
+
+    // This part is for >> always show top when you are clicking new pages start
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+    // This part is for >> always show top when you are clicking new pages end
 
     const toggleVisibility = () => {
         if (window.pageYOffset > 300) {
