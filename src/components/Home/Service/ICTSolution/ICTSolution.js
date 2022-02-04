@@ -11,7 +11,7 @@ const ICTSolution = () => {
                     {/* ICT Solution Details Here */}
                     <Fade bottom duration={2000}>
                         <div>
-                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10">ICT <span class="text-yellow-500">SOLUTION</span></h2>
+                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10">ICT <span class="text-sky-500">SOLUTION</span></h2>
                         </div>
                     </Fade>
                     <Fade bottom delay={1000}>
@@ -34,14 +34,14 @@ const ICTSolution = () => {
 
                         {/* Right Content Image */}
                         <div class="p-20 mt-0 lg:mt-20 mx-auto animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/xDQpSYn/Server-storage.jpg" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/xDQpSYn/Server-storage.jpg" alt="" />
                         </div>
                     </div>
 
                     {/* Db Management Content Start */}
                     <div class="grid lg:grid-cols-2 gap-6 my-0 md:my-20 mx-auto items-center">
                         <div class="p-10 mt-0 lg:mt-20 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/sJm5fb3/Db-management.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/sJm5fb3/Db-management.png" alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -69,7 +69,7 @@ const ICTSolution = () => {
 
                         {/* Right Content Image  */}
                         <div class="p-10 mt-0 lg:mt-20 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/hmdqR8X/intelisence-security.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/hmdqR8X/intelisence-security.png" alt="" />
                         </div>
                     </div>
                     

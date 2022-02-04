@@ -11,7 +11,7 @@ const NetworkSolution = () => {
                     {/* Network Solution Content start */}
                     <Fade bottom duration={2000}>
                         <div>
-                        <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="text-yellow-500">NETWORK</span> SOLUTION</h2>
+                        <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="text-sky-500">NETWORK</span> SOLUTION</h2>
                         </div>
                     </Fade>
                     <Fade bottom delay={1000}>
@@ -38,14 +38,14 @@ const NetworkSolution = () => {
 
                         {/* Right Content Image */}
                         <div class="p-16 t-0 md:mt-16 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/kGsNt3Q/undraw-Connection-re-lcud.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/kGsNt3Q/undraw-Connection-re-lcud.png" alt="" />
                         </div>
                     </div>
 
                     {/* Voice and video solution Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 my-20 items-center">
                         <div class="p-6 mt-0 md:mt-16 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/qpHCq3G/voice-and-video.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/qpHCq3G/voice-and-video.png" alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -80,7 +80,7 @@ const NetworkSolution = () => {
 
                         {/* Right Content Image */}
                         <div class="p-10 mt-20 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/4MtKp6h/network-security.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/4MtKp6h/network-security.png" alt="" />
                         </div>
                     </div>
                 </div>

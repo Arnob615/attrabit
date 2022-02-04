@@ -11,7 +11,7 @@ const SoftwareDevelopment = () => {
                     {/* Software Development Content Start */}
                     <Fade bottom duration={2000}>
                         <div>
-                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"><span class="text-yellow-500">SOFTWARE</span> DEVELOPMENT</h2>
+                            <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"><span class="text-sky-500">SOFTWARE</span> DEVELOPMENT</h2>
                         </div>
                     </Fade>
                     <Fade bottom delay={1000}>
@@ -39,14 +39,14 @@ const SoftwareDevelopment = () => {
 
                         {/* Right Content Image */}
                         <div class="p-10 mt-20 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/NC3PBFF/Programming.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/NC3PBFF/Programming.png" alt="" />
                         </div>
                     </div>
 
                     {/* Apps Development Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 my-10 items-center">
                         <div class="p-6 mt-28 animate-bounce">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/T1crtvr/Apps-development.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/T1crtvr/Apps-development.png" alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -79,7 +79,7 @@ const SoftwareDevelopment = () => {
 
                         {/* Right Content Image */}
                         <div class="p-10 mt-0 md:mt-28 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/FHpYjrH/Pos-solution.jpg" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/FHpYjrH/Pos-solution.jpg" alt="" />
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { createContext, useState } from 'react';
 import {
   BrowserRouter as Router, Link, Route, Routes
 } from "react-router-dom";
@@ -14,7 +14,10 @@ import Login from './components/Login/Login';
 import ScrollToTop from './components/scroll/ScrollToTop';
 import Signup from './components/Signup/Signup';
 
+export const UserContext = createContext();
+
 function App() {
+  const [loggedInUser, setLoggedInUser] = useState({});
   const [isShow, setIsShow] = useState(false);
   const [changeNavbar, setChangeNavbar] = useState(false);
 
@@ -35,6 +38,7 @@ function App() {
 
   return (
     <main class="main-background">
+      <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
       <Router>
         {/* Nav link start*/}
           <nav class={changeNavbar ? 'bg-gray-600 fixed inset-x-0 top-0 z-50' : 'bg-gray-600'}>
@@ -49,7 +53,7 @@ function App() {
 
                 {/* Main Navbar part */}
                 <div class= "hidden lg:flex text-gray-300 space-x-5 ml-14 items-center text-sm">
-                  <Link class=" transform duration-300 bg-yellow-600 px-4 py-1 rounded hover:bg-yellow-800" to="/">
+                  <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded " to="/">
                     <a href="/home" alt="">HOME</a>
                   </Link>
                   <Link class="hover:text-yellow-400 transform duration-300" to="/businessConsultancy">
@@ -72,7 +76,7 @@ function App() {
               
               {/* Login and Signup is here part */}
               <div class="hidden lg:flex space-x-3 items-center">
-                <Link class="text-sm bg-yellow-600 px-4 py-1 rounded text-white transform duration-300 hover:bg-yellow-800" to="/login">LOGIN</Link>
+                <Link class="text-sm px-4 py-1 rounded text-white bg-sky-700 hover:bg-sky-600 transform duration-300 " to="/login">LOGIN</Link>
                 <Link class="text-sm bg-gray-700 px-4 py-1 text-white rounded transform duration-300 hover:bg-gray-800" to="signup">SIGNUP</Link>
               </div>
               
@@ -115,6 +119,7 @@ function App() {
           <Footer/>
         </div>
       </Router>
+      </UserContext.Provider>
       <ScrollToTop/>
     </main>
   );

@@ -6,7 +6,7 @@ import { Fade } from 'react-reveal';
 const Technology = () => {
     return (
         <section class="p-10">
-            <div class="max-w-screen-xl mx-auto my-24">
+            <div class="max-w-screen-xl mx-auto mt-24">
                 <Fade right duration={2000}>
                     <div>
                         <h1 class="text-center md:text-left text-3xl mb-10 text-gray-200">ADVANCED TECHNOLOGY</h1>
@@ -22,13 +22,13 @@ const Technology = () => {
                                 <p class="mb-8 text-gray-400 text-base text-center md:text-justify">We focus on Cloud Computing, Blockchain technology to ensure security and performance</p>
                                 <div class="grid md:grid-cols-2 gap-7">
                                     <div>
-                                        <FontAwesomeIcon class="w-14 md:w-10 mx-auto md:mx-0 lg:w-10 hover:text-white bg-yellow-600 p-2 rounded-full cursor-pointer duration-300" icon={faConnectdevelop}></FontAwesomeIcon>
+                                        <FontAwesomeIcon class="w-14 md:w-10 mx-auto md:mx-0 lg:w-10 hover:text-white bg-sky-600 p-2 rounded-full cursor-pointer duration-300" icon={faConnectdevelop}></FontAwesomeIcon>
                                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-200 my-5 text-center md:text-justify">Security</h1>
                                         <p class="text-gray-400 text-base text-center md:text-justify">IT combines the authentication of both users and devices with the authorization of access to various assets to ensure the highest level of security.</p>
                                     </div>
 
                                     <div>
-                                        <FontAwesomeIcon class="mx-auto md:mx-0 w-14 md:w-10 lg:w-10 hover:text-white bg-yellow-600 p-2 rounded-full cursor-pointer duration-300" icon={faAccessibleIcon}></FontAwesomeIcon>
+                                        <FontAwesomeIcon class="mx-auto md:mx-0 w-14 md:w-10 lg:w-10 hover:text-white bg-sky-600 p-2 rounded-full cursor-pointer duration-300" icon={faAccessibleIcon}></FontAwesomeIcon>
                                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-200 my-5 text-center md:text-justify">Performance</h1>
                                         <p class="text-gray-400 text-base text-center md:text-justify">We focus on the excellent support and service we provide to our customers.</p>
                                     </div>

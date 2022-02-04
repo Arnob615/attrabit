@@ -5,7 +5,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer class="p-10 mt-10">
-            <div class="max-w-screen-xl mx-auto p-5 background rounded-3xl transform duration-300 bg-sky-900 hover:bg-sky-800">
+            <div class="max-w-screen-xl mx-auto p-5 background rounded-3xl transform duration-300 border-t border-b">
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-3 text-white py-10 ">
 
                     {/* ICT Solution Content */}

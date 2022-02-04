@@ -13,7 +13,7 @@ const BusinessConsultancy = () => {
                         <div>
                             <Fade bottom duration={2000}>
                                 <div>
-                                    <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="text-yellow-500">BUSINESS</span> CONSULTANCY</h2>
+                                    <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="text-sky-500">BUSINESS</span> CONSULTANCY</h2>
                                 </div>
                             </Fade>
                             <Fade bottom delay={1000}>
@@ -43,14 +43,14 @@ const BusinessConsultancy = () => {
 
                         {/* Right Content Image */}
                         <div class="p-16 mx-auto mt-0 md:mt-16 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/LxgGPSP/FDI-Marketing.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/LxgGPSP/FDI-Marketing.png" alt="" />
                         </div>
                     </div>
 
                     {/* Voice and video solution Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 my-0 md:my-20 items-center">
                         <div class="p-20 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/my84kfg/Company-formation.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/my84kfg/Company-formation.png" alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -96,7 +96,7 @@ const BusinessConsultancy = () => {
 
                         {/* Right Content Image */}
                         <div class="p-16 mt-0 md:mt-16 animate-pulse">
-                            <img class="rounded border-4 border-yellow-300" src="https://i.ibb.co/HhJVJdV/Operation-management.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/HhJVJdV/Operation-management.png" alt="" />
                         </div>
                     </div>
                 </div>
