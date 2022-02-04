@@ -13,7 +13,7 @@ const Footer = () => {
 
                             {/* Business Consultancy Content */}
                             <div class="text-center">
-                                <h1 class="text-gray-100 text-lg">BUSINESS</h1>
+                                <h1 class="text-gray-100 text-lg">CONSULTANCY</h1>
                                 <a class="block pt-5 text-md transform duration-300 text-gray-400 text-md hover:text-gray-200" href="/Fdi market research" alt="">FDI Market Research</a>
                                 <a class="block text-md transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3" href="#company formation" alt="">Company Formation</a>
                                 <a class="text-md transform duration-300 text-gray-400 hover:text-gray-200" href="operation management" alt="">Operation Management</a>
@@ -29,7 +29,7 @@ const Footer = () => {
 
                             {/* Network solution Content */}
                             <div class="text-center">
-                                <h1 class="text-gray-100 text-lg">NETWORK SOLUTION</h1>
+                                <h1 class="text-gray-100 text-lg">NETWORK</h1>
                                 <a class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 pt-5" href="data-network" alt="">Data Network</a>
                                 <a class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3" href="video-solution" alt="">Voice & Video Solution</a>
                                 <a class="text-gray-400 transform duration-300  text-md hover:text-gray-200" href="network-security" alt="">Network Security</a>
@@ -60,7 +60,7 @@ const Footer = () => {
                 {/* Footer headline */}
                 <Fade right duration={2000}>
                     <>
-                        <p class="text-gray-400 text-md text-center p-10 cursor-pointer">Copyright 2021 Attrabit   |   Privacy Policy   |   All Rights Reserved   |   Powered by Attrabit IT</p>
+                        <p class="text-gray-400 text-md text-center p-10 cursor-pointer">Copyright 2021 Attrabit   |   Privacy Policy   |   All Rights Reserved   |   Powered by Attrabit</p>
                     </>
                 </Fade>
             </div>

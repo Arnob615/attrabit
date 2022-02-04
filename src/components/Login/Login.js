@@ -15,7 +15,7 @@ const Login = () => {
                 {/* Login Form Wrapper */}
                 <Fade left duration={2000}>
                     <>
-                        <div class="container background p-20 rounded-3xl text-gray-200 bg-sky-900">
+                        <div class="container background p-20 rounded-3xl text-gray-200 bg-gray-600">
                             <h2 class="text-center text-4xl">Login Form </h2>
 
                             {/* Login Form */}
@@ -48,7 +48,7 @@ const Login = () => {
                                 </div>
 
                                 <div className="form-group">
-                                    <input type="submit" value="Login" className="text-gray-100 text-lg cursor-pointer w-full h-12 transform duration-300 bg-sky-600 hover:bg-sky-700 rounded mb-10" />
+                                    <input type="submit" value="Login" className="text-gray-100 text-lg cursor-pointer w-full h-12 transform duration-300 bg-sky-900 hover:bg-sky-800 rounded mb-10" />
                                 </div>
 
                                 {/* Others login system */}

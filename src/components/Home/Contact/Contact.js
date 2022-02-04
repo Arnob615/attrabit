@@ -22,7 +22,7 @@ const Contact = () => {
             <div class="max-w-screen-xl mx-auto">
                 <h1 class="text-4xl pt-20 text-gray-200 text-center">CONTACT US</h1>
                 <p class="text-center text-gray-400 my-2" >Do you have any question? Please feel free to ask your question or opinion under this form.</p>
-                <div class="grid lg:grid-cols-2 mt-10 gap-4 md:p-5 lg:p-5 items-center bg-sky-800 rounded-3xl">
+                <div class="grid lg:grid-cols-2 mt-10 gap-4 md:p-5 lg:p-5 items-center bg-gray-600 rounded-3xl">
 
                     {/* Contact Form Start */}
                     <Slide left duration={1000}>
@@ -49,7 +49,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className="mt-4 text-center">
-                                    <input type="submit" class="submit-button transform duration-300 text-lg bg-sky-600 hover:bg-sky-700 hover:text-white hover:translate-x-4 text-gray-200 w-full h-12 cursor-pointer rounded" value="Send Message"/>
+                                    <input type="submit" class="submit-button transform duration-300 text-lg bg-sky-900 hover:bg-sky-800 hover:text-white hover:translate-x-4 text-gray-200 w-full h-12 cursor-pointer rounded" value="Send Message"/>
                                 </div>
                             </div>
                         </form>
