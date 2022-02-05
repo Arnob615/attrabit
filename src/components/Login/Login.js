@@ -10,7 +10,7 @@ const Login = () => {
     
     return (
         <div class="p-10">
-            <div class="max-w-screen-xl mx-auto">
+            <div class="max-w-screen-md mx-auto">
 
                 {/* Login Form Wrapper */}
                 <Fade left duration={2000}>

@@ -54,7 +54,7 @@ function App() {
 
                 {/* Main Navbar part */}
                 <div class= "hidden lg:flex text-gray-300 space-x-5 ml-10 items-center text-sm">
-                  <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded " to="/">
+                  <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded" to="/">
                     <a href="/home" alt="">HOME</a>
                   </Link>
                   <Link class="hover:text-sky-400 transform duration-300" to="/businessConsultancy">

@@ -16,7 +16,7 @@ const Signup = () => {
 
     return (
         <div class="p-10">
-            <div class="max-w-screen-xl mx-auto">
+            <div class="max-w-screen-md mx-auto">
 
                 {/* Signup Form Wrapper */}
                 <Fade right duration={2000}>
