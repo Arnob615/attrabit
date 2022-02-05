@@ -1,8 +1,11 @@
-body {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 .main-background {
-    background-color: #0C1C3B;
-    /* background-color: #19192C; */
+    /* background-color: #0C1C3B; */
+    background-color: #19192C;
 }

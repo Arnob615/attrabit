@@ -70,7 +70,7 @@ function App() {
                     <a href="/ict">ICT SOLUTION</a>
                   </Link>
                   <Link class="hover:text-sky-400 transform duration-300" to="/contact">
-                    <a href="/contact">CONTACT US</a>
+                    <a href="/contact">CONTACT</a>
                   </Link>
                 </div>
               </div>

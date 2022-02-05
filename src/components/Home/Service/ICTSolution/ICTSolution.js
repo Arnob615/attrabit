@@ -22,7 +22,7 @@ const ICTSolution = () => {
 
                     {/* Service storage Management Content Start */}
                     <div class="grid lg:grid-cols-2 gap-6 mt-24 items-center">
-                        <Fade bottom delay={1000} duration={1000}>
+                        <Fade bottom delay={1000} duration={2000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">SERVER STORAGE MANAGEMENT</h2>
                                 <p class="text-gray-400 text-base text-justify">With more than 20 years of experience in the server and storage space. Attrabit Engineers of server and storage practice focus on providing design, development, and support and maintenance services to the ecosystem which include dedicated server hosting, server networking and backup   cloud technology with more than 20 years of experience.</p>
@@ -45,7 +45,7 @@ const ICTSolution = () => {
                         </div>
 
                         {/* Right Content Start */}
-                        <Fade bottom duration={1000}>
+                        <Fade bottom duration={2000}>
                             <div class="my-20">
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">DB-MANAGEMENT</h2>
                                 <div>
@@ -58,7 +58,7 @@ const ICTSolution = () => {
 
                     {/* Intelisense Security Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 items-center">
-                        <Fade bottom duration={1000}>
+                        <Fade bottom duration={2000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">INTELISENSE SECURITY</h2>
                                 <p class="text-gray-400 text-justify text-base">Attrabit has been in the security and surveillance industry for over 20 years. We have a multiple years of true in the field experience and can tackle just about any security requirement or issue that comes about. We have experience at every level starting with office alarm and CCTV systems all the way to the top level systems for large corporate customers, manufacturing facilities, and Government and Law Enforcement agencies.</p>

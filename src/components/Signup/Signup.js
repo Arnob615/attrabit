@@ -21,7 +21,7 @@ const Signup = () => {
                 {/* Signup Form Wrapper */}
                 <Fade right duration={2000}>
                     <>
-                        <div class="container background p-20 rounded-3xl text-gray-200 bg-gray-600">
+                        <div class="container background p-20 rounded-3xl text-gray-200 bg-gray-700">
                             <h2 class="text-center text-4xl">Create an account</h2>
 
                             {/* Signup Form */}

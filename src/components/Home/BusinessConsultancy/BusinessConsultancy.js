@@ -30,10 +30,10 @@ const BusinessConsultancy = () => {
                     {/* Data Network Content start */}
                     
                     <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
-                        <Fade bottom delay={1000} duration={1000}>
+                        <Fade bottom delay={1000} duration={2000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">FDI MARKET RESEARCH</h2>
-                                <p class="text-gray-400 text-justify text-base">Analysing your business, the Key to success! Indo Tech uses a combination of enhanced secondary research techniques (analysis of customer/industry/stakeholder/competitor etc.) and structured primary research methodologies (for reliable data efficiency) in our approach to research tools.</p>
+                                <p class="text-gray-400 text-justify text-base">Analysing your business, the Key to success! Attrabit uses a combination of enhanced secondary research techniques (analysis of customer/industry/stakeholder/competitor etc.) and structured primary research methodologies (for reliable data efficiency) in our approach to research tools.</p>
                                 <p class="text-gray-400 py-2 text-justify text-base">Whether you’re eyeing markets in the next town or across continents, we understand the importance of knowing what consumers watch and buy. That’s our passion and the very heart of our business.</p>
                                 <p class="text-gray-400 text-justify text-base">We study consumers in multiple countries to give you the most complete view of trends and habits worldwide. And we’re constantly evolving, not only in terms of where we measure, or who we measure, but in how our insights can help you drive profitable growth.</p>
                                 <p class="text-gray-400 text-justify text-base">Whether your business is a multinational enterprise or a single store-front, we believe innovation is the key to success, in both what you create and how you market your products and ideas. That’s why we continue to develop better solutions to help you meet the needs of today’s consumers, and find out where they’re headed next.</p>
@@ -54,7 +54,7 @@ const BusinessConsultancy = () => {
                         </div>
 
                         {/* Right Content Start */}
-                        <Fade bottom duration={1000}>
+                        <Fade bottom duration={2000}>
                             <div>
                                 <h2 class="text-3xl my-10 px-10 text-center md:text-left text-gray-200">COMPANY FORMATION</h2>
                                 <div class="mt-12 px-10">
@@ -69,7 +69,7 @@ const BusinessConsultancy = () => {
 
                     {/* Network Security Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 items-center">
-                        <Fade bottom duration={1000}>
+                        <Fade bottom duration={2000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">OPERATION MANAGEMENT</h2>
                                 <p class="text-gray-400 text-center md:text-left pt-8 text-base">Attrabit is the specialist in operation management support in south asian region.</p>
