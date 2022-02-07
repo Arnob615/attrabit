@@ -47,19 +47,19 @@ function App() {
               <div class="flex">
                 {/* Logo is here */}
                 <div>
-                  <Link to="/home">
+                  <Link to="/">
                     <img class="w-32 cursor-pointer" src="https://i.ibb.co/JB0hP3M/logo2.png" alt=""/>
                   </Link>
                 </div>
 
                 {/* Main Navbar part */}
                 <div class= "hidden lg:flex text-gray-300 space-x-5 ml-10 items-center text-sm">
-                  <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded" to="/home"> HOME </Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/businessConsultancy"> BUSINESS CONSULTANCY </Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/networkSolution">NETWORK SOLUTION</Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/softwareDevelopment">SOFTWARE SOLUTION</Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/ictSolution">ICT SOLUTION</Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/networkSolution">CONTACT</Link>
+                  <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded" to="/"> HOME </Link>
+                  <Link class="hover:text-sky-400 transform duration-300" to="/business-consultancy"> BUSINESS CONSULTANCY </Link>
+                  <Link class="hover:text-sky-400 transform duration-300" to="/network-solution">NETWORK SOLUTION</Link>
+                  <Link class="hover:text-sky-400 transform duration-300" to="/software-development">SOFTWARE SOLUTION</Link>
+                  <Link class="hover:text-sky-400 transform duration-300" to="/ict-solution">ICT SOLUTION</Link>
+                  <Link class="hover:text-sky-400 transform duration-300" to="/contact">CONTACT</Link>
                 </div>
               </div>
               
@@ -81,11 +81,11 @@ function App() {
             
             {/* This Navbar is for mobile menu */}
               <div class={isShow ? 'block' : 'hidden'} >
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/home" alt="">HOME</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/businessConsultancy">BUSINESS CONSULTANCY</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/networkSolution">NETWORK SOLUTION</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/softwareDevelopment">SOFTWARE DEVELOPMENT</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/ictSolution">ICT SOLUTION</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/" alt="">HOME</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/business-consultancy">BUSINESS CONSULTANCY</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/network-solution">NETWORK SOLUTION</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/software-development">SOFTWARE DEVELOPMENT</a>
+                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/ict-solution">ICT SOLUTION</a>
                 <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/contact">CONTACT</a>
               </div>
             </nav>
@@ -93,11 +93,11 @@ function App() {
 
         {/* Routes Components */}
         <Routes>
-          <Route path="/home" element={<Home/>}/>
-          <Route path="/networkSolution" element={<NetworkSolution/>}/>
-          <Route path="/softwareDevelopment" element={<SoftwareDevelopment/>}/>
-          <Route path="/ICTSolution" element={<ICTSolution/>}/>
-          <Route path="/businessConsultancy" element={<BusinessConsultancy/>}/>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/network-solution" element={<NetworkSolution/>}/>
+          <Route path="/software-development" element={<SoftwareDevelopment/>}/>
+          <Route path="/ict-solution" element={<ICTSolution/>}/>
+          <Route path="/business-consultancy" element={<BusinessConsultancy/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/Login" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/>
