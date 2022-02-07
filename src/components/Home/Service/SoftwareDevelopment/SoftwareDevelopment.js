@@ -1,5 +1,8 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
+import webDevelopment from '../../../../images/web-development.jpg';
+import appDevelopment from '../../../../images/Apps-development.png';
+import posSolution from '../../../../images/Pos-solution.jpg';
 
 const SoftwareDevelopment = () => {
     return (
@@ -39,14 +42,14 @@ const SoftwareDevelopment = () => {
 
                         {/* Right Content Image */}
                         <div class="p-10 mt-20 animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/NC3PBFF/Programming.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={webDevelopment} alt="" />
                         </div>
                     </div>
 
                     {/* Apps Development Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 my-10 items-center">
                         <div class="p-6 mt-28 animate-bounce">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/T1crtvr/Apps-development.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={appDevelopment} alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -79,7 +82,7 @@ const SoftwareDevelopment = () => {
 
                         {/* Right Content Image */}
                         <div class="p-10 mt-0 md:mt-28 animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/FHpYjrH/Pos-solution.jpg" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={posSolution} alt="" />
                         </div>
                     </div>
                 </div>

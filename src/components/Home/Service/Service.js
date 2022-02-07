@@ -1,6 +1,10 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import { useNavigate } from 'react-router';
+import businessConsultancy from '../../../images/Business-consultancy.png';
+import ictSolution from '../../../images/Ict-solution2.png';
+import network from '../../../images/network.png';
+import software from '../../../images/Software-development.png';
 
 const Service = () => {
     let navigate = useNavigate();
@@ -28,7 +32,7 @@ const Service = () => {
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-3 pt-20 border-10">
                 {/* Business Consultancy content part */}
                     <div class="w-72 border-4 border-sky-600 p-6 rounded-2xl mx-auto transform transition-all duration-300 hover:-translate-y-7">
-                        <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72  mt-5" src="https://i.ibb.co/ZBdD42W/Business-consultancy.png" alt=""/>
+                        <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72  mt-5" src={businessConsultancy} alt=""/>
                         <h1 class="text-center text-3xl md:text-2xl lg:text-2xl text-gray-200 my-6">BUSINESS</h1>
                         <p class="text-gray-400 my-2 text-center text-base">Our consortium of seasoned consultants positions itself as a dynamic and client-centric consultancy firm in the...</p>
                         <button onClick={handleNetworkSolution} class="bg-gray-700 mt-6 text-gray-200 px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-500 mx-auto flex">
@@ -41,7 +45,7 @@ const Service = () => {
 
                     {/* Network Solution Content start */}
                     <div class="w-72 border-4 border-sky-600 p-6 rounded-2xl mx-auto mt-9 md:mt-0 transform transition-all duration-300 hover:-translate-y-7">
-                        <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72 mt-5" src="https://i.ibb.co/stxJxzp/network.png" alt=""/>
+                        <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72 mt-5" src={network} alt=""/>
                         <h1 class="text-center text-3xl md:text-2xl lg:text-2xl text-gray-200 my-6">NETWORK</h1>
                         <p class="text-gray-400 my-2 text-center text-base">Attrabit is a Japanese firm dedicated to providing services and products to help our customers realize more utilization...</p>
                         <button onClick={handleNetworkSolution} class="bg-gray-700 mt-6 text-gray-200 px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-500 mx-auto flex">
@@ -54,7 +58,7 @@ const Service = () => {
                     
                     {/* Software Development Content start */}
                     <div class=" w-72 border-4 border-sky-600 p-6 rounded-2xl mx-auto mt-9 md:mt-5 lg:mt-0 transform transition-all duration-300 hover:-translate-y-7">
-                        <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72 mt-5" src="https://i.ibb.co/JnFz45g/Software-development.png" alt=""/>
+                        <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72 mt-5" src={software} alt=""/>
                         <h1 class="text-center text-3xl md:text-2xl lg:text-2xl text-gray-200 my-6">SOFTWARE</h1>
                         <p class="text-gray-400 my-2 text-center text-base">Attrabit is a leading software development outsourcing company focusing on IT consulting and programming...</p>
                         <button onClick={handleSoftwareDevelopment} class="bg-gray-700 mt-6 text-gray-200 px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-500 mx-auto flex">
@@ -67,7 +71,7 @@ const Service = () => {
 
                     {/* ICT Solution Content start */}
                     <div class="w-72 border-4 border-sky-600 p-6 rounded-2xl mx-auto mt-9 lg:mt-5 xl:mt-0 transform transition-all duration-300 hover:-translate-y-7">
-                        <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72 mt-5" src="https://i.ibb.co/ZgtRXGY/Ict-solution2.png" alt=""/>
+                        <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72 mt-5" src={ictSolution} alt=""/>
                         <h1 class="text-3xl md:text-2xl lg:text-2xl text-gray-200 text-center my-6">ICT SOLUTION</h1>
                         <p class="text-gray-400 my-2 text-center text-base">Within our global network of skills and experience we combine a unique insight into how ICT can embrace, support and...</p>
                         <button onClick={handleIctSolution} class="bg-gray-700 text-gray-200 mt-6 px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-500 mx-auto flex">

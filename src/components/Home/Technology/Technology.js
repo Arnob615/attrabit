@@ -2,6 +2,7 @@ import { faAccessibleIcon, faConnectdevelop } from '@fortawesome/free-brands-svg
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Fade } from 'react-reveal';
+import technology from '../../../images/Technology.png';
 
 const Technology = () => {
     return (
@@ -38,7 +39,7 @@ const Technology = () => {
 
                         {/* Right Content Image */}
                         <div class="w-11/12 lg:w-10/12 md:pl-10 mx-auto mt-8 lg:mt-0 animate-pulse">
-                            <img class="rounded-3xl" src="https://i.ibb.co/rHhsFRF/Technology.png" alt=""/>
+                            <img class="rounded-3xl" src={technology} alt=""/>
                         </div>
                     </div>
             </div>

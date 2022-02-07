@@ -1,5 +1,8 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
+import serverStorage from '../../../../images/Server-storage.jpg';
+import dataManagement from '../../../../images/Db-management.png';
+import intelisenseSecurity from '../../../../images/intelisence-security.png';
 
 const ICTSolution = () => {
     return (
@@ -34,14 +37,14 @@ const ICTSolution = () => {
 
                         {/* Right Content Image */}
                         <div class="p-20 mt-0 lg:mt-20 mx-auto animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/xDQpSYn/Server-storage.jpg" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={serverStorage} alt="" />
                         </div>
                     </div>
 
                     {/* Db Management Content Start */}
                     <div class="grid lg:grid-cols-2 gap-6 my-0 md:my-20 mx-auto items-center">
                         <div class="p-10 mt-0 lg:mt-20 animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/sJm5fb3/Db-management.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={dataManagement} alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -69,7 +72,7 @@ const ICTSolution = () => {
 
                         {/* Right Content Image  */}
                         <div class="p-10 mt-0 lg:mt-20 animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/hmdqR8X/intelisence-security.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={intelisenseSecurity} alt="" />
                         </div>
                     </div>
                     

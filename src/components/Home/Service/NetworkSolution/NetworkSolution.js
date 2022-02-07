@@ -1,5 +1,8 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
+import dataNetwork from '../../../../images/data-network.jpg';
+import voiceAndVideo from '../../../../images/voice-and-video.png';
+import networkSecurity from '../../../../images/network-security.png';
 
 const NetworkSolution = () => {
     return (
@@ -38,14 +41,14 @@ const NetworkSolution = () => {
 
                         {/* Right Content Image */}
                         <div class="p-16 t-0 md:mt-16 animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/kGsNt3Q/undraw-Connection-re-lcud.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={dataNetwork} alt="" />
                         </div>
                     </div>
 
                     {/* Voice and video solution Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 my-20 items-center">
                         <div class="p-6 mt-0 md:mt-16 animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/qpHCq3G/voice-and-video.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={voiceAndVideo} alt="" />
                         </div>
 
                         {/* Right Content Start */}
@@ -80,7 +83,7 @@ const NetworkSolution = () => {
 
                         {/* Right Content Image */}
                         <div class="p-10 mt-20 animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src="https://i.ibb.co/4MtKp6h/network-security.png" alt="" />
+                            <img class="rounded border-4 border-sky-300" src={networkSecurity} alt="" />
                         </div>
                     </div>
                 </div>
