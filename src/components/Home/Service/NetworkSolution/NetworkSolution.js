@@ -9,12 +9,12 @@ const NetworkSolution = () => {
                 {/* All Content Wrapper */}
                 <div class="p-3">
                     {/* Network Solution Content start */}
-                    <Fade bottom duration={2000}>
+                    <Fade bottom duration={1000}>
                         <div>
                         <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="text-sky-500">NETWORK</span> SOLUTION</h2>
                         </div>
                     </Fade>
-                    <Fade bottom delay={1000}>
+                    <Fade bottom duration={1000}>
                         <div>
                             <p class="text-gray-400 text-justify text-base">Attrabit is a Japanese firm dedicated to providing services and products to help our customers realize more utilization and productivity from their existing infrastructure.</p>
                             <p class="text-gray-400 text-justify py-2 text-base">We are specializing in building robust networks, deploying network management systems, and implementing data security solutions. We have more than 10 years of network engineering experience with the latest technologies to build fast, secure, and highly-available enterprise networks.</p>
@@ -27,7 +27,7 @@ const NetworkSolution = () => {
                     {/* Data Network Content start */}
                     
                     <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
-                        <Fade bottom delay={2000} duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">DATA NETWORK</h2>
                                 <p class="text-gray-400 text-justify text-base">From confidential company information to sensitive financial records, the data you transfer on a daily basis ensures the successful operation and credibility of your business. Every time you transport this data, you place it at risk. To reduce these risks and to stay current with progressing compliance issues, you need a safe and reliable networking solution.</p>
@@ -49,7 +49,7 @@ const NetworkSolution = () => {
                         </div>
 
                         {/* Right Content Start */}
-                        <Fade bottom duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div class="py-20">
                                 <h2 class="text-3xl my-10 px-10 text-center md:text-left text-gray-200">VOICE AND VIDEO SOLUTION</h2>
                                 <div class="mt-12 px-10">
@@ -69,7 +69,7 @@ const NetworkSolution = () => {
 
                     {/* Network Security Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 items-center">
-                        <Fade bottom duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-gray-200 text-center md:text-left">NETWORK SECURITY</h2>
                                 <p class="text-gray-400 text-justify pt-8 text-base">If you are like most businesses today, you share data with customers, partners and suppliers almost constantly. While this ability to communicate and collaborate makes your business more productive, it also makes your business’s security and compliance vitally important. What steps are you taking to ensure your company’s data is being protected in the most aggressive ways possible?</p>

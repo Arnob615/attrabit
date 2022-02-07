@@ -1,6 +1,7 @@
 {
   "name": "attrabit",
   "version": "0.1.0",
+  "homepage": "http://attrabit.net/nat",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",

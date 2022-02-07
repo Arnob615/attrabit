@@ -11,12 +11,12 @@ const BusinessConsultancy = () => {
                 <div class="p-3">
                     {/* Network Solution Content start */}
                         <div>
-                            <Fade bottom duration={2000}>
+                            <Fade bottom duration={1000}>
                                 <div>
                                     <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"> <span class="text-sky-500">BUSINESS</span> CONSULTANCY</h2>
                                 </div>
                             </Fade>
-                            <Fade bottom delay={1000}>
+                            <Fade bottom duration={1000}>
                                 <div>
                                     <p class="text-gray-400 text-justify text-base">Our consortium of seasoned consultants positions itself as a dynamic and client-centric consultancy firm in the Offshore Business Development, Network Services and Solutions, ICT Solutions, Software Development, including a broad outsourcing portfolio in the IT industry.</p>
                                     <p class="text-gray-400 text-justify py-2 text-base">With our partner companies in Indian sub-continent we are equipped with years of programming, communications and IT experience accumulated in its talented programmers, designers and engineers.</p>
@@ -30,7 +30,7 @@ const BusinessConsultancy = () => {
                     {/* Data Network Content start */}
                     
                     <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
-                        <Fade bottom delay={1000} duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">FDI MARKET RESEARCH</h2>
                                 <p class="text-gray-400 text-justify text-base">Analysing your business, the Key to success! Attrabit uses a combination of enhanced secondary research techniques (analysis of customer/industry/stakeholder/competitor etc.) and structured primary research methodologies (for reliable data efficiency) in our approach to research tools.</p>
@@ -54,7 +54,7 @@ const BusinessConsultancy = () => {
                         </div>
 
                         {/* Right Content Start */}
-                        <Fade bottom duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 px-10 text-center md:text-left text-gray-200">COMPANY FORMATION</h2>
                                 <div class="mt-12 px-10">
@@ -69,7 +69,7 @@ const BusinessConsultancy = () => {
 
                     {/* Network Security Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 items-center">
-                        <Fade bottom duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">OPERATION MANAGEMENT</h2>
                                 <p class="text-gray-400 text-center md:text-left pt-8 text-base">Attrabit is the specialist in operation management support in south asian region.</p>

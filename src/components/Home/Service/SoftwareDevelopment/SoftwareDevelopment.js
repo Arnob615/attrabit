@@ -9,12 +9,12 @@ const SoftwareDevelopment = () => {
                 {/* All Content Wrapper Start */}
                 <div class="p-3">
                     {/* Software Development Content Start */}
-                    <Fade bottom duration={2000}>
+                    <Fade bottom duration={1000}>
                         <div>
                             <h2 class="text-3xl text-center cursor-pointer text-gray-200 my-10"><span class="text-sky-500">SOFTWARE</span> DEVELOPMENT</h2>
                         </div>
                     </Fade>
-                    <Fade bottom delay={1000}>
+                    <Fade bottom duration={1000}>
                         <div>
                             <p class="text-gray-400 text-justify text-base">Attrabit is a Japanese firm dedicated to providing services and products to help our customers realize more utilization and productivity from their existing infrastructure.</p>
                             <p class="text-gray-400 text-justify py-2 text-base">We are specializing in building robust networks, deploying network management systems, and implementing data security solutions. We have more than 10 years of network engineering experience with the latest technologies to build fast, secure, and highly-available enterprise networks.</p>
@@ -26,7 +26,7 @@ const SoftwareDevelopment = () => {
 
                     {/* Web Development Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
-                        <Fade bottom delay={1000} duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">WEB DEVELOPMENT</h2>
                                 <p class="text-gray-400 text-justify text-base">In this mobile age, impressive website design is a must — no matter what devices your visitors are using. We offer unique, award-winning, and fully responsive website designs from the most talented designers in the industry. Our personalized plans and packages are tailored to meet your individual needs and fit within your budget, and the results are sure to impress each and every visitor to your site.Are you looking to leverage your online presence but lack a coherent, aesthetically pleasing website?</p>
@@ -50,7 +50,7 @@ const SoftwareDevelopment = () => {
                         </div>
 
                         {/* Right Content Start */}
-                        <Fade bottom duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div class="py-20">
                                 <h2 class="text-3xl my-10 px-10 text-center md:text-left text-gray-200">APPS DEVELOPMENT</h2>
                                 <div class="mx-10">
@@ -67,7 +67,7 @@ const SoftwareDevelopment = () => {
 
                     {/* Pos Solution Content Start */}
                     <div class="grid md:grid-cols-2 gap-6 items-center">
-                        <Fade bottom duration={2000}>
+                        <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">POS SOLUTION</h2>
                                 <p class="text-gray-400 text-justify text-base">Our Attrabit team understands what retailers face every day. Our staff is from retail backgrounds, and we utilize our customers’ input to design and develop systems that are useful in the real world of retailing. We are constantly updating and innovating to anticipate any future needs your business might have.</p>
