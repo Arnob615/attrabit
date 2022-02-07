@@ -13,6 +13,7 @@ import SoftwareDevelopment from './components/Home/Service/SoftwareDevelopment/S
 import Login from './components/Login/Login';
 import ScrollToTop from './components/scroll/ScrollToTop';
 import Signup from './components/Signup/Signup';
+import logo from './images/logo/logo2.png';
 
 export const UserContext = createContext();
 
@@ -48,7 +49,7 @@ function App() {
                 {/* Logo is here */}
                 <div>
                   <Link to="/">
-                    <img class="w-32 cursor-pointer" src="https://i.ibb.co/JB0hP3M/logo2.png" alt=""/>
+                    <img class="w-32 cursor-pointer" src={logo} alt=""/>
                   </Link>
                 </div>
 
