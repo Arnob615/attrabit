@@ -15,7 +15,6 @@ const Technology = () => {
                 </Fade>
 
                 {/* All Content Wrapper Start */}
-                
                     <div class="grid lg:grid-cols-2 items-center justify-between">
                         {/* Left Content Articles z*/}
                         <Fade left duration={2000}>

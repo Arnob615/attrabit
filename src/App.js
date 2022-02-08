@@ -56,11 +56,11 @@ function App() {
                 {/* Main Navbar part */}
                 <div class= "hidden lg:flex text-gray-300 space-x-5 ml-10 items-center text-sm">
                   <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded" to="/"> HOME </Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/business-consultancy"> BUSINESS CONSULTANCY </Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/network-solution">NETWORK SOLUTION</Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/software-development">SOFTWARE SOLUTION</Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/ict-solution">ICT SOLUTION</Link>
-                  <Link class="hover:text-sky-400 transform duration-300" to="/contact">CONTACT</Link>
+                  <Link class="main-nav" to="/business-consultancy"> BUSINESS CONSULTANCY </Link>
+                  <Link class="main-nav" to="/network-solution">NETWORK SOLUTION</Link>
+                  <Link class="main-nav" to="/software-development">SOFTWARE SOLUTION</Link>
+                  <Link class="main-nav" to="/ict-solution">ICT SOLUTION</Link>
+                  <Link class="main-nav" to="/contact">CONTACT</Link>
                 </div>
               </div>
               
@@ -70,7 +70,7 @@ function App() {
                 <Link class="text-sm bg-gray-700 px-4 py-1 text-white rounded transform duration-300 hover:bg-gray-800" to="signup">SIGNUP</Link>
               </div>
               
-              {/* Mobile button icon part */}
+              {/* Mobile menu icon part */}
               <div class="lg:hidden flex items-center">
                 <button class="text-white" onClick={() => handleClick()}>
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -81,13 +81,13 @@ function App() {
             </div>
             
             {/* This Navbar is for mobile menu */}
-              <div class={isShow ? 'block' : 'hidden'} >
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/" alt="">HOME</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/business-consultancy">BUSINESS CONSULTANCY</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/network-solution">NETWORK SOLUTION</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/software-development">SOFTWARE DEVELOPMENT</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/ict-solution">ICT SOLUTION</a>
-                <a class="block px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300" href="/contact">CONTACT</a>
+              <div class={isShow ? 'grid grid-rows-6 text-center items-center' : 'hidden'} >
+                <a class="mobile-nav" href="/" alt="">HOME</a>
+                <a class="mobile-nav" href="/business-consultancy">BUSINESS CONSULTANCY</a>
+                <a class="mobile-nav" href="/network-solution">NETWORK SOLUTION</a>
+                <a class="mobile-nav" href="/software-development">SOFTWARE DEVELOPMENT</a>
+                <a class="mobile-nav" href="/ict-solution">ICT SOLUTION</a>
+                <a class="mobile-nav" href="/contact">CONTACT</a>
               </div>
             </nav>
         {/* nav link end */}

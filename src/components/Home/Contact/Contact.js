@@ -21,7 +21,7 @@ const Contact = () => {
         <section class="p-10">
             <div class="max-w-screen-xl mx-auto">
                 <h1 class="text-4xl text-gray-200 text-center">CONTACT US</h1>
-                <p class="text-center text-gray-400 my-2" >Do you have any question? Please feel free to ask your question or opinion under this form.</p>
+                <p class="text-center text-gray-400 my-2" >Be assured, you're in good hands with Attrabit Whatever your precise needs may be, let us see what we can offer you to further empower your organization with our IT expertise. For all things Networking, Software Development and ICT solution, you can rely on us at Attrabit.</p>
                 <div class="grid lg:grid-cols-2 mt-10 gap-4 md:p-5 lg:p-5 items-center bg-gray-700 rounded-3xl">
 
                     {/* Contact Form Start */}

@@ -6,12 +6,12 @@ import Technology from '../Technology/Technology';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header/>
             <Service/>
             <Technology/>
             <Contact/>
-        </div>
+        </>
     );
 };
 

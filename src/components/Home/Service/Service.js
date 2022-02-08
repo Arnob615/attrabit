@@ -8,14 +8,17 @@ import software from '../../../images/Software-development.png';
 
 const Service = () => {
     let navigate = useNavigate();
+    const handleBusinessConsultancy = () => {
+        navigate("/business-consultancy")
+    }
     const handleNetworkSolution = () => {
-        navigate("/networkSolution")
+        navigate("/network-solution")
     }
     const handleIctSolution = () => {
-        navigate("/ICTSolution")
+        navigate("/ict-solution")
     }
     const handleSoftwareDevelopment = () => {
-        navigate("/softwareDevelopment")
+        navigate("/software-development")
     }
 
     return (
@@ -35,7 +38,7 @@ const Service = () => {
                         <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72  mt-5" src={businessConsultancy} alt=""/>
                         <h1 class="text-center text-3xl md:text-2xl lg:text-2xl text-gray-200 my-6">CONSULTANCY</h1>
                         <p class="text-gray-400 my-2 text-center text-base">Our consortium of seasoned consultants positions itself as a dynamic and client-centric consultancy firm in the...</p>
-                        <button onClick={handleNetworkSolution} class="bg-gray-700 mt-6 text-gray-200 px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-500 mx-auto flex">
+                        <button onClick={handleBusinessConsultancy} class="bg-gray-700 mt-6 text-gray-200 px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-500 mx-auto flex">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
                             </svg>
