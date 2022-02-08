@@ -14,33 +14,33 @@ const Footer = () => {
                             {/* Business Consultancy Content */}
                             <div class="text-center">
                                 <a class="text-gray-100 text-lg" href="/business-consultancy" alt="">CONSULTANCY</a>
-                                <a class="block pt-5 text-md transform duration-300 text-gray-400 text-md hover:text-gray-200" href="/fdi market research" alt="">FDI Market Research</a>
-                                <a class="block text-md transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3" href="/company-formation" alt="">Company Formation</a>
-                                <a class="text-md transform duration-300 text-gray-400 hover:text-gray-200" href="/operation-management" alt="">Operation Management</a>
+                                <p class="block pt-5 text-md transform duration-300 text-gray-400 text-md hover:text-gray-200">FDI Market Research</p>
+                                <p class="block text-md transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3">Company Formation</p>
+                                <p class="text-md transform duration-300 text-gray-400 hover:text-gray-200">Operation Management</p>
+                            </div>
+
+                            {/* Network solution Content */}
+                            <div class="text-center">
+                                <a class="text-gray-100 text-lg" href="/network-solution" alt="">NETWORK</a>
+                                <p class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 pt-5">Data Network</p>
+                                <p class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3">Voice & Video Solution</p>
+                                <p class="text-gray-400 transform duration-300  text-md hover:text-gray-200">Network Security</p>
+                            </div>
+
+                            {/* Software Development Content */}
+                            <div class="text-center">
+                                <a class="text-gray-100 text-lg" href="/software-development" alt="">SOFTWARE</a>
+                                <p class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 pt-5">Web Development</p>
+                                <p class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3">Apps Development</p>
+                                <p class="text-gray-400 transform duration-300 text-md hover:text-gray-200" >Pos Solution</p>
                             </div>
 
                             {/* ICT Solution Content */}
                             <div class="text-center">
                                 <a class="text-gray-100 text-lg" href="/ict-solution" alt="">ICT SOLUTION</a>
-                                <a class="block pt-5 text-md transform duration-300 text-gray-400 text-md hover:text-gray-200" href="/cloud management" alt="">Cloud Management</a>
-                                <a class="block text-md transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3" href="#server storage management" alt="">Server Management</a>
-                                <a class="text-md transform duration-300 text-gray-400 hover:text-gray-200" href="Db-management" alt="">DB Management</a>
-                            </div>
-
-                            {/* Network solution Content */}
-                            <div class="text-center">
-                                <a class="text-gray-100 text-lg" href="/network-solution">NETWORK</a>
-                                <a class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 pt-5" href="data-network" alt="">Data Network</a>
-                                <a class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3" href="video-solution" alt="">Voice & Video Solution</a>
-                                <a class="text-gray-400 transform duration-300  text-md hover:text-gray-200" href="network-security" alt="">Network Security</a>
-                            </div>
-
-                            {/* Software Development Content */}
-                            <div class="text-center">
-                                <a class="text-gray-100 text-lg" href="/software-development">SOFTWARE</a>
-                                <a class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 pt-5" href="web-development" alt="">Web Development</a>
-                                <a class="block transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3" href="apps-development" alt="">Apps Development</a>
-                                <a class="text-gray-400 transform duration-300 text-md hover:text-gray-200" href="pos-solution" alt="">Pos Solution</a>
+                                <p class="block pt-5 text-md transform duration-300 text-gray-400 text-md hover:text-gray-200">Cloud Management</p>
+                                <p class="block text-md transform duration-300 text-gray-400 text-md hover:text-gray-200 py-3">Server Management</p>
+                                <p class="text-md transform duration-300 text-gray-400 hover:text-gray-200">DB Management</p>
                             </div>
 
                             {/* Social Icon is here */}

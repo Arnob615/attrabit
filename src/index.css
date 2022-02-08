@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 /* This code is for app component */
-
 .main-nav {
     @apply hover:text-sky-400 transform duration-300;
 }

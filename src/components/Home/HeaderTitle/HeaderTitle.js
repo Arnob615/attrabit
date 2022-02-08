@@ -27,8 +27,6 @@ const HeaderTitle = () => {
                         </div> */}
                     </div>
 
-                    
-
                     {/* Button part */}
                     <div class="w-2/4 mx-auto md:flex lg:flex justify-evenly pb-10 lg:pb-2">
                         <Zoom>
