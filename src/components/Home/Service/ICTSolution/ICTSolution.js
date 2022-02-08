@@ -1,8 +1,8 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import serverStorage from '../../../../images/Server-storage.jpg';
 import dataManagement from '../../../../images/Db-management.png';
-import intelisenseSecurity from '../../../../images/intelisence-security.png';
+import intellisenceSecurity from '../../../../images/intelisence-security.png';
+import serverStorage from '../../../../images/Server-storage.jpg';
 
 const ICTSolution = () => {
     return (
@@ -24,7 +24,7 @@ const ICTSolution = () => {
                     </Fade>
 
                     {/* Service storage Management Content Start */}
-                    <div class="grid lg:grid-cols-2 gap-6 mt-24 items-center">
+                    <div class="grid lg:grid-cols-2 gap-6 mt-24 items-center" id="server-management">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">SERVER STORAGE MANAGEMENT</h2>
@@ -42,7 +42,7 @@ const ICTSolution = () => {
                     </div>
 
                     {/* Db Management Content Start */}
-                    <div class="grid lg:grid-cols-2 gap-6 my-0 md:my-20 mx-auto items-center">
+                    <div class="grid lg:grid-cols-2 gap-6 my-0 md:my-20 mx-auto items-center" id="db-management">
                         <div class="p-10 mt-0 lg:mt-20 animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={dataManagement} alt="" />
                         </div>
@@ -59,11 +59,11 @@ const ICTSolution = () => {
                         </Fade>
                     </div>
 
-                    {/* Intelisense Security Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 items-center">
+                    {/* Intellisense Security Content Start */}
+                    <div class="grid md:grid-cols-2 gap-6 items-center" id="intellisense-security">
                         <Fade bottom duration={1000}>
                             <div>
-                                <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">INTELISENSE SECURITY</h2>
+                                <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">INTELLISENSE SECURITY</h2>
                                 <p class="text-gray-400 text-justify text-base">Attrabit has been in the security and surveillance industry for over 20 years. We have a multiple years of true in the field experience and can tackle just about any security requirement or issue that comes about. We have experience at every level starting with office alarm and CCTV systems all the way to the top level systems for large corporate customers, manufacturing facilities, and Government and Law Enforcement agencies.</p>
                                 <p class="text-gray-400 text-justify py-2 text-base">We specialize in many disciplines to provide a vast knowledge base for our clients to rely upon in an effort to provide the type of security services or equipment that will meet their needs. We are expert in the areas of hidden video surveillance including wireless hidden video products and techniques.</p>
                                 <p class="text-gray-400 text-justify text-base">Our expertise also includes hidden video counter-surveillance techniques and practices (the ability to detect and dispose of hidden bugs including listening devices as well as video) which is a great advantage in our industry as we get to see both sides of the tracks shall we say, and we have now added complete biometric systems/solutions to our line of products and services.</p>
@@ -72,7 +72,7 @@ const ICTSolution = () => {
 
                         {/* Right Content Image  */}
                         <div class="p-10 mt-0 lg:mt-20 animate-pulse">
-                            <img class="rounded border-4 border-sky-300" src={intelisenseSecurity} alt="" />
+                            <img class="rounded border-4 border-sky-300" src={intellisenceSecurity} alt="" />
                         </div>
                     </div>
                     

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import webDevelopment from '../../../../images/web-development.jpg';
 import appDevelopment from '../../../../images/Apps-development.png';
 import posSolution from '../../../../images/Pos-solution.jpg';
+import webDevelopment from '../../../../images/web-development.jpg';
 
 const SoftwareDevelopment = () => {
     return (
-        <section>
+        <section >
             <div class="max-w-screen-xl mx-auto">
 
                 {/* All Content Wrapper Start */}
@@ -28,7 +28,7 @@ const SoftwareDevelopment = () => {
                     </Fade>
 
                     {/* Web Development Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
+                    <div class="grid md:grid-cols-2 gap-6 mt-20 items-center" id="web-development">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">WEB DEVELOPMENT</h2>
@@ -47,7 +47,7 @@ const SoftwareDevelopment = () => {
                     </div>
 
                     {/* Apps Development Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 my-10 items-center">
+                    <div id="apps-development" class="grid md:grid-cols-2 gap-6 my-10 items-center">
                         <div class="p-6 mt-28 animate-bounce">
                             <img class="rounded border-4 border-sky-300" src={appDevelopment} alt="" />
                         </div>
@@ -69,7 +69,7 @@ const SoftwareDevelopment = () => {
                     </div>
 
                     {/* Pos Solution Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <div class="grid md:grid-cols-2 gap-6 items-center" id="pos-solution">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">POS SOLUTION</h2>

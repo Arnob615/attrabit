@@ -1,8 +1,8 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import dataNetwork from '../../../../images/data-network.jpg';
-import voiceAndVideo from '../../../../images/voice-and-video.png';
 import networkSecurity from '../../../../images/network-security.png';
+import voiceAndVideo from '../../../../images/voice-and-video.png';
 
 const NetworkSolution = () => {
     return (
@@ -28,8 +28,7 @@ const NetworkSolution = () => {
                     </Fade>
 
                     {/* Data Network Content start */}
-                    
-                    <div class="grid md:grid-cols-2 gap-6 mt-20 items-center">
+                    <div class="grid md:grid-cols-2 gap-6 mt-20 items-center" id="data-network">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">DATA NETWORK</h2>
@@ -46,7 +45,7 @@ const NetworkSolution = () => {
                     </div>
 
                     {/* Voice and video solution Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 my-20 items-center">
+                    <div class="grid md:grid-cols-2 gap-6 my-20 items-center" id="voice-and-video">
                         <div class="p-6 mt-0 md:mt-16 animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={voiceAndVideo} alt="" />
                         </div>
@@ -59,11 +58,11 @@ const NetworkSolution = () => {
                                     <p class="text-gray-400 text-justify text-base">Our Voice & Video solutions help you communicate and collaborate within and beyond your organization, helping you meet the demands of growth.</p>
                                     <p class="text-gray-400 text-justify py-2 text-base">With our years of experience, we provide Voice and Video Solutions based on below systems.</p>
                                     <ul class="mt-7 text-gray-400 text-base">
-                                        <li><a href="" alt="">Cisco IP Telephony</a></li>
-                                        <li><a href="" alt="">Cisco Jabber</a></li>
-                                        <li><a href="" alt="">Cisco Telepresence</a></li>
-                                        <li><a href="" alt="">Avaya IP telephony</a></li>
-                                        <li><a href="" alt="">Polycome Video Systems</a></li>
+                                        <li><a href="#cisco-ip" alt="">Cisco IP Telephony</a></li>
+                                        <li><a href="#cisco-jabber" alt="">Cisco Jabber</a></li>
+                                        <li><a href="#cisco-telepresence" alt="">Cisco Telepresence</a></li>
+                                        <li><a href="#avaya-ip" alt="">Avaya IP telephony</a></li>
+                                        <li><a href="#polycome" alt="">Polycome Video Systems</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -71,7 +70,7 @@ const NetworkSolution = () => {
                     </div>
 
                     {/* Network Security Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <div class="grid md:grid-cols-2 gap-6 items-center" id="network-security">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-gray-200 text-center md:text-left">NETWORK SECURITY</h2>
