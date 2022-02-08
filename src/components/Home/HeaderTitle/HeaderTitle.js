@@ -12,7 +12,7 @@ const HeaderTitle = () => {
                     <div class="pt-32 md:pt-40">
                         <h2 class="text-center text-gray-200 text-xl md:text-3xl lg:text-4xl xl:text-5xl tracking-wider ">ATTRACTIVE AND ABSOLUTE SOLUTION</h2>
                         <div class="w-3/4 mx-auto">
-                            <p class="py-7 text-center text-lg text-gray-200">For Better experience, Complete ICT Solutions Software Development you can trust our company blindly. Save time and reduce costs with intuitive Unified Endpoint Management from Attrabit</p>
+                            <p class="py-7 text-center text-base md:text-lg text-gray-200">For Better experience, Complete ICT Solutions Software Development you can trust our company blindly. Save time and reduce costs with intuitive Unified Endpoint Management from Attrabit</p>
                         </div>
                     </div>
 
