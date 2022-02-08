@@ -33,7 +33,7 @@ const Service = () => {
                 {/* Business Consultancy content part */}
                     <div class="w-72 border-4 border-sky-600 p-6 rounded-2xl mx-auto transform transition-all duration-300 hover:-translate-y-7">
                         <img class="w-80 h-40 rounded-2xl md:w-72 lg:w-72  mt-5" src={businessConsultancy} alt=""/>
-                        <h1 class="text-center text-3xl md:text-2xl lg:text-2xl text-gray-200 my-6">BUSINESS</h1>
+                        <h1 class="text-center text-3xl md:text-2xl lg:text-2xl text-gray-200 my-6">CONSULTANCY</h1>
                         <p class="text-gray-400 my-2 text-center text-base">Our consortium of seasoned consultants positions itself as a dynamic and client-centric consultancy firm in the...</p>
                         <button onClick={handleNetworkSolution} class="bg-gray-700 mt-6 text-gray-200 px-7 py-3 rounded transform duration-300 hover:translate-x-4 hover:bg-gray-500 mx-auto flex">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
