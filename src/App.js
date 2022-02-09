@@ -13,7 +13,7 @@ import SoftwareDevelopment from './components/Home/Service/SoftwareDevelopment/S
 import Login from './components/Login/Login';
 import ScrollToTop from './components/scroll/ScrollToTop';
 import Signup from './components/Signup/Signup';
-import logo from './images/logo/logo2.png';
+import logo from './images/logo/logo.png';
 
 export const UserContext = createContext();
 
@@ -44,17 +44,17 @@ function App() {
       <ScrollToTop/>
         {/* Nav link start*/}
           <nav class={changeNavbar ? 'bg-gray-600 fixed inset-x-0 top-0 z-50' : 'bg-gray-600'}>
-            <div class="max-w-screen-xl mx-auto flex justify-between p-3 items-center h-16">
+            <div class="max-w-screen-xl mx-auto flex justify-between p-6 items-center ">
               <div class="flex">
                 {/* Logo is here */}
                 <div>
                   <Link to="/">
-                    <img class="w-32 cursor-pointer" src={logo} alt=""/>
+                    <img class="w-36 cursor-pointer" src={logo} alt=""/>
                   </Link>
                 </div>
 
                 {/* Main Navbar part */}
-                <div class= "hidden lg:flex text-gray-300 space-x-5 ml-10 items-center text-sm">
+                <div class= "hidden lg:flex text-gray-300 space-x-4 ml-6 items-center text-sm">
                   <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded focus:outline-none focus:ring focus:ring-violet-300" to="/"> HOME </Link>
                   <Link class="main-nav" to="/business-consultancy"> BUSINESS CONSULTANCY </Link>
                   <Link class="main-nav" to="/network-solution">NETWORK SOLUTION</Link>
@@ -64,7 +64,7 @@ function App() {
                 </div>
               </div>
               
-              {/* Login and Signup is here part */}
+              {/* Login and Signup button part */}
               <div class="hidden lg:flex space-x-3 items-center">
                 <Link class="text-sm px-4 py-1 rounded text-white bg-sky-700 hover:bg-sky-600 transform duration-300 " to="/login">LOGIN</Link>
                 <Link class="text-sm bg-gray-700 px-4 py-1 text-white rounded transform duration-300 hover:bg-gray-800" to="signup">SIGNUP</Link>
@@ -104,7 +104,6 @@ function App() {
           <Route path="/signup" element={<Signup/>}/>
         </Routes>
         
-        {/* Footer Part */}
         <div>
           <Footer/>
         </div>
