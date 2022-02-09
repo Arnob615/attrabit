@@ -44,7 +44,7 @@ function App() {
       <ScrollToTop/>
         {/* Nav link start*/}
           <nav class={changeNavbar ? 'bg-gray-600 fixed inset-x-0 top-0 z-50' : 'bg-gray-600'}>
-            <div class="max-w-screen-xl mx-auto flex justify-between p-6 items-center ">
+            <div class="max-w-screen-xl mx-auto flex justify-between p-4 items-center ">
               <div class="flex">
                 {/* Logo is here */}
                 <div>
@@ -81,7 +81,7 @@ function App() {
             </div>
             
             {/* This Navbar is for mobile menu */}
-              <div class={isShow ? 'grid grid-rows-6 text-center items-center' : 'hidden'} >
+              <div class={isShow ? 'grid grid-rows-6 text-center bg-gray-700 items-center' : 'hidden'} >
                 <a class="mobile-nav" href="/" alt="">HOME</a>
                 <a class="mobile-nav" href="/business-consultancy">BUSINESS CONSULTANCY</a>
                 <a class="mobile-nav" href="/network-solution">NETWORK SOLUTION</a>

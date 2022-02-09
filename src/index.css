@@ -4,9 +4,9 @@
 
 /* This code is for app component */
 .main-nav {
-    @apply transform duration-300 hover:bg-sky-700 p-1 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded focus:bg-sky-700;
+    @apply transform duration-300 hover:bg-sky-700 p-1 focus:outline-none focus:ring-2 rounded focus:bg-sky-700;
 }
 
 .mobile-nav {
-  @apply px-4 py-2 text-sm text-gray-100 hover:bg-gray-800 hover:text-gray-100 transform duration-300;
+  @apply px-4 py-2 text-sm text-gray-100 hover:bg-sky-800 hover:text-gray-100 transform duration-300;
 }
