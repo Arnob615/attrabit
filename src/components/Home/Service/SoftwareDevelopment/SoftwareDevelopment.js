@@ -28,7 +28,7 @@ const SoftwareDevelopment = () => {
                     </Fade>
 
                     {/* Web Development Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 mt-20 items-center" id="web-development">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="web-development">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">WEB DEVELOPMENT</h2>
@@ -47,8 +47,8 @@ const SoftwareDevelopment = () => {
                     </div>
 
                     {/* Apps Development Content Start */}
-                    <div id="apps-development" class="grid md:grid-cols-2 gap-6 my-10 items-center">
-                        <div class="p-6 mt-28 animate-bounce">
+                    <div id="apps-development" class="grid md:grid-cols-2 gap-6 pt-20 items-center">
+                        <div class=" mt-28 animate-bounce">
                             <img class="rounded border-4 border-sky-300" src={appDevelopment} alt="" />
                         </div>
 
@@ -69,7 +69,7 @@ const SoftwareDevelopment = () => {
                     </div>
 
                     {/* Pos Solution Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 items-center" id="pos-solution">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="pos-solution">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">POS SOLUTION</h2>

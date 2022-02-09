@@ -28,7 +28,7 @@ const NetworkSolution = () => {
                     </Fade>
 
                     {/* Data Network Content start */}
-                    <div class="grid md:grid-cols-2 gap-6 mt-20 items-center" id="data-network">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="data-network">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">DATA NETWORK</h2>
@@ -39,14 +39,14 @@ const NetworkSolution = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="p-16 t-0 md:mt-16 animate-pulse">
+                        <div class="p-10 mt-0 md:mt-16 animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={dataNetwork} alt="" />
                         </div>
                     </div>
 
                     {/* Voice and video solution Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 my-20 items-center" id="voice-and-video">
-                        <div class="p-6 mt-0 md:mt-16 animate-pulse">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="voice-and-video">
+                        <div class="p-2 mt-0 md:mt-16 animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={voiceAndVideo} alt="" />
                         </div>
 
@@ -70,7 +70,7 @@ const NetworkSolution = () => {
                     </div>
 
                     {/* Network Security Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 items-center" id="network-security">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="network-security">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-gray-200 text-center md:text-left">NETWORK SECURITY</h2>

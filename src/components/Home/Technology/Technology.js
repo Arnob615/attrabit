@@ -10,7 +10,7 @@ const Technology = () => {
             <div class="max-w-screen-xl mx-auto my-24">
                 <Fade right duration={2000}>
                     <div>
-                        <h1 class="text-center md:text-left text-3xl mb-10 text-gray-200">ADVANCED TECHNOLOGY</h1>
+                        <h1 class="text-center md:text-left text-3xl mb-10 p-6 text-gray-200">ADVANCED TECHNOLOGY</h1>
                     </div>
                 </Fade>
 

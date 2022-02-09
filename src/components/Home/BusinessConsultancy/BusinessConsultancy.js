@@ -31,7 +31,7 @@ const BusinessConsultancy = () => {
                         </div>
 
                     {/* Fdi market Research Content start */}
-                    <div class="grid md:grid-cols-2 gap-6 mt-20 items-center" id="fdi-market">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="fdi-market">
                         <Fade bottom duration={1000}>
                             <div>
                                 <div id="fdi-market">
@@ -46,14 +46,14 @@ const BusinessConsultancy = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="p-16 mx-auto mt-0 md:mt-16 animate-pulse">
+                        <div class="p-12 mx-auto mt-0 md:mt-16 animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={fdiMarketing} alt="" />
                         </div>
                     </div>
 
                     {/* Company Formation Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 my-0 md:my-20 items-center" id="company-formation">
-                        <div class="p-20 animate-pulse">
+                    <div class="grid md:grid-cols-2 gap-6 items-center pt-6" id="company-formation">
+                        <div class="p-16 animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={companyFormation} alt="" />
                         </div>
 
@@ -72,22 +72,22 @@ const BusinessConsultancy = () => {
                     </div>
 
                     {/* Operation Management Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 items-center" id="operation-management">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="operation-management">
                         <Fade bottom duration={1000}>
                             <div>
-                                <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">OPERATION MANAGEMENT</h2>
+                                <h2 class="text-3xl text-center md:text-left text-gray-200">OPERATION MANAGEMENT</h2>
                                 <p class="text-gray-400 text-center md:text-left pt-8 text-base">Attrabit is the specialist in operation management support in south asian region.</p>
                                 <p class="text-gray-400 text-center md:text-left py-2 text-base">We provide below services--
                                 </p>
                                 
-                                <h5 class="text-2xl my-10 text-center md:text-left text-gray-200">Local Company Information</h5>
+                                <h5 class="text-2xl my-4 text-center md:text-left text-gray-200">Local Company Information</h5>
                                 <ul class="text-gray-400 text-center md:text-left py-2 text-base">
                                     <li>– Local company information for new partner reliability</li>
                                     <li>– Survey of competitors to help advance your business.</li>
                                     <li>– Introduce Lawyer, Accountants and Tax lawyer.</li>
                                 </ul>
 
-                                <h5 class="text-2xl my-10 text-center md:text-left text-gray-200">Management Support</h5>
+                                <h5 class="text-2xl my-4 text-center md:text-left text-gray-200">Management Support</h5>
                                 <ul class="text-gray-400 text-justify py-2 text-base">
                                     <li>– Human resource and labour management</li>
                                     <li>– Train and educate to local employees</li>
@@ -99,7 +99,7 @@ const BusinessConsultancy = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="p-16 mt-0 md:mt-16 animate-pulse">
+                        <div class="p-12 mt-0 md:mt-16 animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={operationManagement} alt="" />
                         </div>
                     </div>

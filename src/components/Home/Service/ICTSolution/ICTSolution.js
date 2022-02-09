@@ -24,7 +24,7 @@ const ICTSolution = () => {
                     </Fade>
 
                     {/* Service storage Management Content Start */}
-                    <div class="grid lg:grid-cols-2 gap-6 mt-24 items-center" id="server-management">
+                    <div class="grid lg:grid-cols-2 gap-6 pt-24 items-center" id="server-management">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl mb-10 text-center md:text-left text-gray-200">SERVER STORAGE MANAGEMENT</h2>
@@ -36,22 +36,22 @@ const ICTSolution = () => {
                         </Fade>
 
                         {/* Right Content Image */}
-                        <div class="p-20 mt-0 lg:mt-20 mx-auto animate-pulse">
+                        <div class="p-10 mt-0 lg:mt-20 mx-auto animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={serverStorage} alt="" />
                         </div>
                     </div>
 
                     {/* Db Management Content Start */}
-                    <div class="grid lg:grid-cols-2 gap-6 my-0 md:my-20 mx-auto items-center" id="db-management">
-                        <div class="p-10 mt-0 lg:mt-20 animate-pulse">
+                    <div class="grid lg:grid-cols-2 gap-6 my-0 md:pt-20 mx-auto items-center" id="db-management">
+                        <div class="animate-pulse">
                             <img class="rounded border-4 border-sky-300" src={dataManagement} alt="" />
                         </div>
 
                         {/* Right Content Start */}
                         <Fade bottom duration={1000}>
-                            <div class="my-20">
-                                <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">DB-MANAGEMENT</h2>
-                                <div>
+                            <div class="">
+                                <h2 class="text-3xl text-center pl-10 md:text-left text-gray-200">DB-MANAGEMENT</h2>
+                                <div class="p-10">
                                     <p class="text-gray-400 text-justify text-base">Comprehensive Database Consulting Services.</p>
                                     <p class="text-gray-400 text-justify py-2 text-base">Do you want your organization to be as efficient and effective as possible? Of course you do! You can help your organization reach new levels in performance with Attrabit database consulting services. Our services will show you how to foster a more effective, more reliable database environment, which will lead to a stronger, more successful organization or enterprise overall. With the help of a proven database consultancy like Attrabit, you can properly manage and utilize your data to provide you with the type of business intelligence the world’s most successful corporations leverage to guide their own operations. And we would know, since we’ve worked with them ourselves.</p>
                                 </div>
@@ -60,7 +60,7 @@ const ICTSolution = () => {
                     </div>
 
                     {/* Intellisense Security Content Start */}
-                    <div class="grid md:grid-cols-2 gap-6 items-center" id="intellisense-security">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="intellisense-security">
                         <Fade bottom duration={1000}>
                             <div>
                                 <h2 class="text-3xl my-10 text-center md:text-left text-gray-200">INTELLISENSE SECURITY</h2>
