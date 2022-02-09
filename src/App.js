@@ -55,7 +55,7 @@ function App() {
 
                 {/* Main Navbar part */}
                 <div class= "hidden lg:flex text-gray-300 space-x-5 ml-10 items-center text-sm">
-                  <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded" to="/"> HOME </Link>
+                  <Link class=" transform duration-300 bg-sky-700 hover:bg-sky-600 px-4 py-1 rounded focus:outline-none focus:ring focus:ring-violet-300" to="/"> HOME </Link>
                   <Link class="main-nav" to="/business-consultancy"> BUSINESS CONSULTANCY </Link>
                   <Link class="main-nav" to="/network-solution">NETWORK SOLUTION</Link>
                   <Link class="main-nav" to="/software-development">SOFTWARE SOLUTION</Link>

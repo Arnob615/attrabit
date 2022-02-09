@@ -4,7 +4,7 @@
 
 /* This code is for app component */
 .main-nav {
-    @apply hover:text-sky-400 transform duration-300;
+    @apply hover:text-sky-400 transform duration-300 focus:outline-none focus:ring-4 focus:ring-offset-4 rounded focus:ring-sky-600;
 }
 
 .mobile-nav {
