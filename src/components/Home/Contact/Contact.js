@@ -2,11 +2,35 @@ import emailjs from '@emailjs/browser';
 import { faAppStore, faPeriscope } from '@fortawesome/free-brands-svg-icons';
 import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import ReCAPTCHA from "react-google-recaptcha";
 import { Slide } from 'react-reveal';
+
 const Contact = () => {
-    function sendEmail(e) {
+    const [captchaValid, setCaptchaValid] = useState(null);
+    const [userValid, setUserValid] = useState(false);
+
+    const captcha = useRef(null);
+
+    //   This function is for Recaptcha
+    const handleOnChange = (e) => {
+        if(captcha.current.getValue()) {
+            setCaptchaValid(true);
+        } 
+        e.target.reset();
+    }
+
+    // Handling email sender
+    const  sendEmail = (e) => {
         e.preventDefault();
+
+        if(captcha.current.getValue()) {
+            setUserValid(true);
+            setCaptchaValid(true);
+        } else {
+            setUserValid(false);
+            setCaptchaValid(false);
+        }
     
         emailjs.sendForm('service_eog97l5', 'template_zli7n2d', e.target, 'user_MeroBc5u7VmNBItDAfmXU' )
           .then((result) => {
@@ -17,13 +41,18 @@ const Contact = () => {
           e.target.reset();
       }
 
+    //   
+    const  refreshPage = () => {
+        window.location.reload(false);
+      }
+
     return (
         <section class="p-10">
             <div class="max-w-screen-xl mx-auto">
                 <h1 class="text-4xl text-gray-200 text-center">CONTACT US</h1>
                 <p class="text-center text-gray-400 my-2" >Be assured, you're in good hands with Attrabit Whatever your precise needs may be, let us see what we can offer you to further empower your organization with our IT expertise. For all things Networking, Software Development and ICT solution, you can rely on us at Attrabit.</p>
-                <div class="grid lg:grid-cols-2 mt-10 gap-4 md:p-5 lg:p-5 items-center bg-gray-700 rounded-3xl">
 
+                <div class="grid lg:grid-cols-2 mt-10 gap-4 md:p-5 lg:p-5 items-center bg-gray-700 rounded-3xl">
                     {/* Contact Form Start */}
                     <Slide left duration={1000}>
                         <form class="p-12" onSubmit={sendEmail} >
@@ -48,8 +77,26 @@ const Contact = () => {
                                     <textarea className="form-control w-full p-3 rounded" id="" rows="7" placeholder="Your Message" name="Message" required></textarea>
                                 </div>
 
+                                {/* Google Recaptcha handling */}
+                                <div class="pt-3">
+                                    <ReCAPTCHA
+                                        ref={captcha}
+                                        sitekey="6Lc06G0eAAAAAG4muULavGmQ9RhHYt6hOEGI-U4R"
+                                        onChange={handleOnChange}
+                                        required
+                                    />
+                                </div>
+
+                                {captchaValid === false && 
+                                    <div>
+                                        <p class="pt-3 text-red-600">Recaptcha Not Valid</p>
+                                    </div>
+                                }
+
                                 <div className="mt-4 text-center">
-                                    <input type="submit" class="submit-button transform duration-300 text-lg bg-sky-900 hover:bg-sky-800 hover:text-white hover:translate-x-4 text-gray-200 w-full h-12 cursor-pointer rounded" value="Send Message"/>
+                                    <button onClick={refreshPage} disabled={!captchaValid} type="submit" class="submit-button transform duration-300 text-lg bg-sky-900 hover:bg-sky-800 hover:text-white hover:translate-x-4 text-gray-200 w-full h-12 cursor-pointer rounded">
+                                        Send Message
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -80,7 +127,6 @@ const Contact = () => {
                             </div>
                         </div>
                     </Slide>
-                    
                 </div>
             </div>
         </section>
