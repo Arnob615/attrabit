@@ -22,7 +22,7 @@ function App() {
   const [isShow, setIsShow] = useState(false);
   const [changeNavbar, setChangeNavbar] = useState(false);
 
-  const handleClick = () => {
+  const handleClick = (e) => {
     setIsShow(!isShow);
   }
 
@@ -42,10 +42,12 @@ function App() {
       <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
       <Router>
       <ScrollToTop/>
+
         {/* Nav link start*/}
           <nav class={changeNavbar ? 'bg-gray-600 fixed inset-x-0 top-0 z-50' : 'bg-gray-600'}>
             <div class="max-w-screen-xl mx-auto flex justify-between p-4 items-center ">
               <div class="flex">
+
                 {/* Logo is here */}
                 <div>
                   <Link to="/">

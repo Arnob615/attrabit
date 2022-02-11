@@ -22,11 +22,11 @@ const Login = () => {
                             <form class="p-10">
                                 <div className="form-group">
                                     <label htmlFor="email">Email</label>
-                                    <input type="text" name="email" className="form-control w-full h-12 p-2 rounded mb-5 text-black" placeholder="Email Address" required />
+                                    <input type="text" name="email" className="form-control w-full h-12 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Email Address" required />
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="password">Password</label>
-                                    <input type="password" name="password" className="form-control w-full h-12 p-2 rounded mb-5 text-black" placeholder="Password" required />
+                                    <input type="password" name="password" className="form-control w-full h-12 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Password" required />
                                 </div>
 
                                 {/* Checkbox and Forgot password part */}
