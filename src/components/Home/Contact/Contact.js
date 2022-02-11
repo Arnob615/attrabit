@@ -142,7 +142,7 @@ const Contact = () => {
                             </div>
 
                             {/* Email and Working */}
-                            <div class="md:flex justify-evenly gap-6">
+                            <div class="md:flex justify-evenly gap-10">
                                 {/* Email part */}
                                 <div class="my-10 md:flex gap-4 items-center justify-center text-gray-300">
                                     <div class="">

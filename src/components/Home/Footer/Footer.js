@@ -8,14 +8,14 @@ import logo from '../../../images/logo/logo.png';
 const Footer = () => {
     return (
         <footer class="p-10 mt-10">
-            <div class="max-w-screen-xl p-5 background rounded-3xl transform duration-300 border-t border-b">
+            <div class="max-w-screen-xl p-5 mx-auto background rounded-3xl transform duration-300 border-t border-b">
                 <Fade left duration={2000}>
                     <>
                         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 text-white py-10 ">
 
                             {/* Footer address part */}
                             <div>
-                                <Link to="/"><img class="w-44 mb-9" src={logo} alt="" /></Link>
+                                <Link to="/"><img class="w-40 mb-9" src={logo} alt="" /></Link>
                                 <div class="">
                                     <div class="flex gap-3 items-center ">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 bg-sky-700 p-1 rounded" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -36,18 +36,11 @@ const Footer = () => {
                                         <p>info@attrabit.net</p>
                                     </div>
 
-                                    <div class="flex gap-3 pb-3 ">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 bg-sky-700 p-1 rounded" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                        </svg>
-                                            <p>0–192–580–8240 (Office)</p>
-                                    </div>
-
                                     <div class="flex gap-3 ">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 bg-sky-700 p-1 rounded" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                         </svg>
-                                            <p>0–167–106–0576 (Admin)</p>
+                                        <p>0–192–580–8240 </p>
                                     </div>
                                 </div>
                                 
