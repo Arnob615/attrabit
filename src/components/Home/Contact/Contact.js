@@ -1,7 +1,4 @@
 import emailjs from '@emailjs/browser';
-import { faAppStore, faPeriscope } from '@fortawesome/free-brands-svg-icons';
-import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useRef, useState } from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
 import { Slide } from 'react-reveal';
@@ -41,7 +38,7 @@ const Contact = () => {
           e.target.reset();
       }
 
-    //   
+    // When you click the button then refresh the page
     const  refreshPage = () => {
         window.location.reload(false);
       }

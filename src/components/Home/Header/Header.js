@@ -5,9 +5,9 @@ import './Header.css';
 const Header = () => {
     return (
         <section class="background_image">
-            <div>
+            <>
                 <HeaderTitle/>
-            </div>
+            </>
         </section>
     );
 };

@@ -1,4 +1,4 @@
-import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Fade } from 'react-reveal';
@@ -93,10 +93,10 @@ const Footer = () => {
                             <div class="social-icon-wrapper">
                                 <h1 class="text-gray-100 text-lg">FOLLOW US</h1>
                                 <div class="flex gap-3 mt-10">
-                                    <a href="http://www.youtube.com" target="_blank" alt="" rel="noreferrer"><FontAwesomeIcon class="w-8 h-8 text-gray-200 bg-red-700 p-2" icon={faYoutube}></FontAwesomeIcon></a>
-                                    <a href="http://www.instagram.com" target="_blank" alt="" rel="noreferrer"><FontAwesomeIcon class="w-8 h-8 text-gray-200 bg-orange-800 p-2" icon={faInstagram}></FontAwesomeIcon></a>
-                                    <a href="http://www.twitter.com" target="_blank" alt="" rel="noreferrer"><FontAwesomeIcon class="w-8 h-8 text-gray-200 bg-cyan-600 p-2" icon={faTwitter}></FontAwesomeIcon></a>
-                                    <a href="https://www.facebook.com/attrabit.net" target="_blank" alt="" rel="noreferrer"><FontAwesomeIcon class="w-8 h-8 bg-sky-700 text-gray-200 p-2" icon={faFacebook}></FontAwesomeIcon></a>
+                                    <a class="transform duration-300 hover:-translate-y-2" href="http://www.youtube.com" target="_blank" alt="" rel="noreferrer"><FontAwesomeIcon class="w-8 h-8 text-gray-200 bg-red-700 p-2" icon={faYoutube}></FontAwesomeIcon></a>
+                                    <a class="transform duration-300 hover:-translate-y-2" href="http://www.instagram.com" target="_blank" alt="" rel="noreferrer"><FontAwesomeIcon class="w-8 h-8 text-gray-200 bg-sky-700 p-2" icon={faLinkedin}></FontAwesomeIcon></a>
+                                    <a class="transform duration-300 hover:-translate-y-2" href="http://www.twitter.com" target="_blank" alt="" rel="noreferrer"><FontAwesomeIcon class="w-8 h-8 text-gray-200 bg-cyan-600 p-2" icon={faTwitter}></FontAwesomeIcon></a>
+                                    <a class="transform duration-300 hover:-translate-y-2" href="https://www.facebook.com/attrabit.net" target="_blank" alt="" rel="noreferrer"><FontAwesomeIcon class="w-8 h-8 bg-sky-800 text-gray-200 p-2" icon={faFacebook}></FontAwesomeIcon></a>
                                 </div>
                             </div>
                         </div>

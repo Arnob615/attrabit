@@ -49,7 +49,7 @@ const ICTSolution = () => {
 
                         {/* Right Content Start */}
                         <Fade bottom duration={1000}>
-                            <div class="">
+                            <div>
                                 <h2 class="text-3xl text-center pl-10 md:text-left text-gray-200">DB-MANAGEMENT</h2>
                                 <div class="p-10">
                                     <p class="text-gray-400 text-justify text-base">Comprehensive Database Consulting Services.</p>

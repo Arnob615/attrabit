@@ -26,7 +26,7 @@ const HeaderTitle = () => {
                             </div>
                         </Zoom>
                         <Zoom>
-                            <div class="">
+                            <div>
                                 <Link to="/contact">
                                     <button class="text-lg text-gray-300 bg-sky-700 hover:bg-sky-600 px-24 py-4 md:px-9 md:py-4 lg:px-12 lg:py-4 transform duration-300 rounded hover:-translate-y-4 hover:text-gray-100">Contact Us</button>
                                 </Link>
