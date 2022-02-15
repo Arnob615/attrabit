@@ -74,16 +74,16 @@ function App() {
 										</div>
 
 										{business &&
-											<div class="absolute top-6">
-												<ul class='bg-gray-600 h-32 grid grid-rows-3 pt-4'>
-													<li class="p-1" onClick={refreshPage}>
-														<a class="main-nav" href="/business-consultancy/#fdi-market" alt="" > FDI Market Research </a>
+											<div class="absolute top-6 z-50">
+												<ul class='bg-gray-600 w-52 h-32 grid grid-rows-3 pt-4'>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/business-consultancy/#fdi-market" alt="" > FDI Market Research </a>
 													</li>
-													<li class="p-1" onClick={refreshPage}>
-														<a class=" main-nav" href="/business-consultancy/#company-formation" alt="" > Company Formation </a>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/business-consultancy/#company-formation" alt="" > Company Formation </a>
 													</li>
-													<li class="p-1" onClick={refreshPage}>
-														<a class=" main-nav" href="/business-consultancy/#operation-management" alt="" > Operation Management </a>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/business-consultancy/#operation-management" alt="" > Operation Management </a>
 													</li>
 												</ul>
 											</div>
@@ -97,15 +97,15 @@ function App() {
 
 										{network &&
 											<div class="absolute top-6 z-50">
-												<ul class='bg-gray-600 w-44 h-32 grid grid-rows-3 pt-4'>
-													<li class="p-1 onClick={refreshPage}" onClick={refreshPage}>
-														<a class="main-nav" href="/network-solution/#data-network" alt="" > Data Network </a>
+												<ul class='bg-gray-600 w-48 h-32 grid grid-rows-3 pt-4'>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/network-solution/#data-network" alt="" > Data Network </a>
 													</li>
-													<li class="p-1" onClick={refreshPage}>
-														<a class=" main-nav" href="/network-solution/#voice-and-video" alt="" > Voice and video </a>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/network-solution/#voice-and-video" alt="" > Voice and video </a>
 													</li>
-													<li class="p-1" onClick={refreshPage}>
-														<a class=" main-nav" href="/network-solution/#network-security" alt="" > Network Security </a>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/network-solution/#network-security" alt="" > Network Security </a>
 													</li>
 												</ul>
 											</div>
@@ -119,15 +119,15 @@ function App() {
 
 										{software &&
 											<div class="absolute top-6 z-50">
-												<ul class='bg-gray-600 w-44 h-32 grid grid-rows-3 pt-4'>
-													<li class="p-1 onClick={refreshPage}" onClick={refreshPage}>
-														<a class="main-nav" href="/software-development/#web-development" alt="" > Web Development </a>
+												<ul class='bg-gray-600 w-48 h-32 grid grid-rows-3 pt-4'>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/software-development/#web-development" alt="" > Web Development </a>
 													</li>
-													<li class="p-1" onClick={refreshPage}>
-														<a class=" main-nav" href="/software-development/#apps-development" alt="" > Apps Development </a>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/software-development/#apps-development" alt="" > Apps Development </a>
 													</li>
-													<li class="p-1" onClick={refreshPage}>
-														<a class=" main-nav" href="/software-development/#pos-solution" alt="" > Pos Solution </a>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/software-development/#pos-solution" alt="" > Pos Solution </a>
 													</li>
 												</ul>
 											</div>
@@ -141,15 +141,15 @@ function App() {
 
 										{ict &&
 											<div class="absolute top-6 z-50">
-												<ul class='bg-gray-600 w-52 h-32 grid grid-rows-3 pt-4'>
-													<li class="p-1" onClick={refreshPage}>
-														<a class="main-nav" href="/ict-solution/#server-management" alt="" > Server Management </a>
+												<ul class='bg-gray-600 w-48 h-32 grid grid-rows-3 pt-4'>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/ict-solution/#server-management" alt="" > Server Management </a>
 													</li>
-													<li class="p-1" onClick={refreshPage}>
-														<a class=" main-nav" href="/ict-solution/#db-management" alt="" > Db-Management </a>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/ict-solution/#db-management" alt="" > Db-Management </a>
 													</li>
-													<li class="p-1" onClick={refreshPage}>
-														<a class=" main-nav" href="/ict-solution/#intellisense-security" alt="" > Intellisense Security </a>
+													<li class="p-1 main-nav" onClick={refreshPage}>
+														<a href="/ict-solution/#intellisense-security" alt="" > Intellisense Security </a>
 													</li>
 												</ul>
 											</div>
