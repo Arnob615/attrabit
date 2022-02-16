@@ -29,7 +29,10 @@ const Service = () => {
                         <h1 class="text-4xl text-center mt-20 text-gray-200">OUR SERVICES</h1>
                     </div>
                 </Fade>
-                <p class="text-gray-400 text-center my-2">You just need to sit back and see your problems solved, business operations accelerated and team productivity boosted.</p>
+                <div class="mx-8 my-2 text-center text-base text-gray-400">
+                    <p>You just need to sit back and see your problems solved, business operations accelerated and team productivity boosted.</p>
+                </div>
+                
 
                 {/* All Content Wrapper */}
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-3 pt-20 border-10">

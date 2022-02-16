@@ -47,7 +47,7 @@ const SoftwareDevelopment = () => {
                     </div>
 
                     {/* Apps Development Content Start */}
-                    <div id="apps-development" class="grid md:grid-cols-2 gap-6 pt-20 items-center">
+                    <div class="grid md:grid-cols-2 gap-6 pt-20 items-center" id="apps-development">
                         <div class=" mt-28 animate-bounce">
                             <img class="rounded border-4 border-sky-300" src={appDevelopment} alt="" />
                         </div>

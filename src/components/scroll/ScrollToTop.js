@@ -39,7 +39,7 @@ const ScrollToTop = () => {
     }, []);
 
     return (
-        <div class="fixed bottom-2 right-2">
+        <div class="fixed bottom-2 right-2 z-50">
             <button type="button" 
                     onClick={scrollToTop} 
                     className={classNames(

@@ -46,51 +46,45 @@ const Contact = () => {
     return (
         <section class="p-10">
             <div class="max-w-screen-xl mx-auto">
-                <h1 class="text-4xl text-gray-200 text-center">CONTACT US</h1>
-                <p class="text-center text-gray-400 my-2" >Be assured, you're in good hands with Attrabit Whatever your precise needs may be, let us see what we can offer you to further empower your organization with our IT expertise. For all things Networking, Software Development and ICT solution, you can rely on us at Attrabit.</p>
+                <>
+                    <h1 class="text-4xl text-gray-200 text-center">CONTACT US</h1>
+                    <p class="text-center text-gray-400 my-2 m-10" >Be assured, you're in good hands with Attrabit Whatever your precise needs may be, let us see what we can offer you to further empower your organization with our IT expertise. For all things Networking, Software Development and ICT solution, you can rely on us at Attrabit.</p>
+                </>
 
-                <div class="grid lg:grid-cols-2 mt-10 gap-4 md:p-5 lg:p-10 items-center  rounded-3xl">
+                <div class="grid lg:grid-cols-2 mt-10 gap-4 md:p-5 lg:p-10 items-center bg-gray-700 rounded-3xl">
                     {/* Contact Form Start */}
                     <Slide left duration={1000}>
-                        <form class="p-8" onSubmit={sendEmail} >
+                        <form class="p-12" onSubmit={sendEmail} >
                             <div className="p-12 mx-auto bg-gray-800 rounded-3xl">
                                 <div className="input-form">
-                                    <label className="text-gray-200">Full Name</label>
-                                    <input type="text" className="form-control w-full h-12 p-3 rounded border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Full Name" name="first_name" required/>
+                                    <input type="text" className="form-control w-full h-14 p-3 rounded border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Your Name" name="full-name" required/>
                                 </div>
 
                                 <div className="input-form py-5">
-                                    <label className="mb-2 text-gray-200">Email</label>
-                                    <input type="email" className="form-control h-12 w-full  p-3 rounded border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Email" name="email" required/>
+                                    <input type="email" className="form-control h-14 w-full  p-3 rounded border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Your Email" name="email" required/>
                                 </div>
 
                                 <div className="input-form">
-                                    <label className="mb-2 text-gray-200">Subject</label>
-                                    <input type="subject" className="form-control w-full h-12 p-3 rounded border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Subject" name="subject" required/>
+                                    <input type="subject" className="form-control w-full h-14 p-3 rounded border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Write Subject" name="subject" required/>
                                 </div>
 
                                 <div className="text-area mt-5">
-                                    <label className="text-gray-200 block">Message</label>
                                     <textarea className="form-control w-full p-3 rounded border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" id="" rows="7" placeholder="Your Message" name="Message" required></textarea>
                                 </div>
 
                                 {/* Google Recaptcha handling */}
-                                <div class="pt-3">
-                                    <ReCAPTCHA
-                                        ref={captcha}
-                                        sitekey="6Lc06G0eAAAAAG4muULavGmQ9RhHYt6hOEGI-U4R"
-                                        onChange={handleOnChange}
-                                    />
+                                <div class="w-5 md:w-7 pt-3">
+                                    <div>
+                                        <ReCAPTCHA
+                                            ref={captcha}
+                                            sitekey="6Lc06G0eAAAAAG4muULavGmQ9RhHYt6hOEGI-U4R"
+                                            onChange={handleOnChange}
+                                        />
+                                    </div>
                                 </div>
 
-                                {captchaValid === false && 
-                                    <div>
-                                        <p class="pt-3 text-red-600">Recaptcha Not Valid</p>
-                                    </div>
-                                }
-
                                 <div className="mt-4 text-center">
-                                    <button onClick={refreshPage} disabled={!captchaValid} type="submit" class="transform duration-300 text-lg text-gray-900 bg-gray-200 hover:bg-sky-800 hover:text-gray-200 w-full h-12 cursor-pointer rounded">
+                                    <button onClick={refreshPage} disabled={!captchaValid} type="submit" class="submit-button transform duration-300 text-lg bg-sky-900 hover:bg-sky-800 hover:text-white hover:translate-x-4 text-gray-200 w-full h-14 cursor-pointer rounded">
                                         Send Message
                                     </button>
                                 </div>
@@ -101,8 +95,10 @@ const Contact = () => {
                     {/* Right Content in form */}
                     <Slide right duration={1000}>
                         <div class="mx-auto text-center ">
-                            <h3 class="text-2xl md:text-3xl text-sky-400 font-medium pt-5 text-center">GET IN TOUCH</h3>
-                            <p class="text-gray-300 text-center mx-auto my-5">Facing a problem? Well, we’re waiting here with the solution!</p>
+                            <div class="">
+                                <h3 class="text-2xl md:text-3xl text-sky-400 font-medium pt-5 text-center">GET IN TOUCH</h3>
+                                <p class="w-10/12 text-gray-300 text-center mx-auto my-5">Facing a problem? Well, we’re waiting here with the solution!</p>
+                            </div>
                             
                             {/* Address and Phone part */}
                             <div class="md:flex justify-evenly gap-6">
