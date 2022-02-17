@@ -25,32 +25,28 @@ const Signup = () => {
                             <h2 class="text-center text-4xl">Create an account</h2>
 
                             {/* Signup Form */}
-                            <form class="p-10">
+                            <form className="p-10">
                                 <div className="form-group">
-                                    <label htmlFor="name">Name</label>
-                                    <input type="name" name="name" className="form-control w-full lg:w-full h-12 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Full Name" required />
+                                    <input type="name" name="name" className="form-control w-full lg:w-full h-14 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Your Name" required />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="email">Email</label>
-                                    <input type="text" name="email" className="form-control w-full lg:w-full h-12 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Email Address" required />
+                                    <input type="text" name="email" className="form-control w-full lg:w-full h-14 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Your Email" required />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="password">Password</label>
-                                    <input type="password" name="password" className="form-control w-full h-12 lg:w-full p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Password" required />
+                                    <input type="password" name="password" className="form-control w-full h-14 lg:w-full p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Your Password" required />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="confirmPassword">Confirm Password</label>
-                                    <input type="password" name="confirmPassword" className="form-control w-full h-12 lg:w-full p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Confirm Password" required />
+                                    <input type="password" name="confirmPassword" className="form-control w-full h-14 lg:w-full p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Confirm Password" required />
                                 </div>
 
                                 {/* Login Form Link */}
-                                <div class="flex justify-around mb-5 text-lg cursor-pointer">
+                                <div className="flex justify-around mb-5 text-lg cursor-pointer">
                                     <p>Already have an account?</p>
                                     <Link class="text-yellow-300 hover:text-yellow-400 transform duration-300 hover:scale-105" to="/login">Login</Link>
                                 </div>
 
                                 <div className="form-group">
-                                    <input type="submit" value="Sign Up" className="text-gray-100 text-lg cursor-pointer w-full h-12 transform duration-300 bg-sky-900 hover:bg-sky-800 rounded mb-10" />
+                                    <input type="submit" value="Sign Up" className="text-gray-900 text-lg cursor-pointer w-full h-14 transform duration-300 bg-gray-200 hover:bg-gray-500 hover:text-gray-200 rounded mb-10" />
                                 </div>
 
                                 {/* Others login system */}

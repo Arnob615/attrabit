@@ -1,33 +1,34 @@
 import emailjs from '@emailjs/browser';
-import React, { useRef, useState } from 'react';
-import ReCAPTCHA from "react-google-recaptcha";
+import React from 'react';
 import { Slide } from 'react-reveal';
+import './Contact.css';
 
 const Contact = () => {
-    const [captchaValid, setCaptchaValid] = useState(null);
-    const [userValid, setUserValid] = useState(false);
+    // const [captchaValid, setCaptchaValid] = useState(null);
+    // const [userValid, setUserValid] = useState(false);
 
-    const captcha = useRef(null);
+    // const captcha = useRef(null);
 
     //   This function is for Recaptcha
-    const handleOnChange = (e) => {
-        if(captcha.current.getValue()) {
-            setCaptchaValid(true);
-        } 
-        e.target.reset();
-    }
+    // const handleOnChange = (e) => {
+    //     if(captcha.current.getValue()) {
+    //         setCaptchaValid(true);
+    //     } 
+    //     e.target.reset();
+    // }
 
     // Handling email sender
     const  sendEmail = (e) => {
         e.preventDefault();
 
-        if(captcha.current.getValue()) {
-            setUserValid(true);
-            setCaptchaValid(true);
-        } else {
-            setUserValid(false);
-            setCaptchaValid(false);
-        }
+        // This is for google recaptcha start
+        // if(captcha.current.getValue()) {
+        //     setUserValid(true);
+        //     setCaptchaValid(true);
+        // } else {
+        //     alert('Please check recaptcha')
+        // }
+        // This is for google recaptcha end
     
         emailjs.sendForm('service_eog97l5', 'template_zli7n2d', e.target, 'user_MeroBc5u7VmNBItDAfmXU' )
           .then((result) => {
@@ -39,9 +40,9 @@ const Contact = () => {
       }
 
     // When you click the button then refresh the page
-    const  refreshPage = () => {
-        window.location.reload(false);
-      }
+    // const  refreshPage = () => {
+    //     window.location.reload(false);
+    //   }
 
     return (
         <section class="p-10">
@@ -54,7 +55,7 @@ const Contact = () => {
                 <div class="grid lg:grid-cols-2 mt-10 gap-4 md:p-5 lg:p-10 items-center bg-gray-700 rounded-3xl">
                     {/* Contact Form Start */}
                     <Slide left duration={1000}>
-                        <form class="p-12" onSubmit={sendEmail} >
+                        <form className="p-8" onSubmit={sendEmail} >
                             <div className="p-12 mx-auto bg-gray-800 rounded-3xl">
                                 <div className="input-form">
                                     <input type="text" className="form-control w-full h-14 p-3 rounded border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Your Name" name="full-name" required/>
@@ -73,18 +74,18 @@ const Contact = () => {
                                 </div>
 
                                 {/* Google Recaptcha handling */}
-                                <div class="w-5 md:w-7 pt-3">
-                                    <div>
+                                {/* <div className="w-5 md:w-7 pt-3">
+                                    <div class="resize-r">
                                         <ReCAPTCHA
                                             ref={captcha}
-                                            sitekey="6Lc06G0eAAAAAG4muULavGmQ9RhHYt6hOEGI-U4R"
+                                            // sitekey="6Lc06G0eAAAAAG4muULavGmQ9RhHYt6hOEGI-U4R"
                                             onChange={handleOnChange}
                                         />
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="mt-4 text-center">
-                                    <button onClick={refreshPage} disabled={!captchaValid} type="submit" class="submit-button transform duration-300 text-lg bg-sky-900 hover:bg-sky-800 hover:text-white hover:translate-x-4 text-gray-200 w-full h-14 cursor-pointer rounded">
+                                    <button type="submit" className="text-gray-900 text-lg cursor-pointer w-full h-14 transform duration-300 bg-gray-200 hover:bg-gray-500 hover:text-gray-200 rounded mb-10">
                                         Send Message
                                     </button>
                                 </div>

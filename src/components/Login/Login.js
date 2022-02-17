@@ -21,12 +21,10 @@ const Login = () => {
                             {/* Login Form */}
                             <form class="p-10">
                                 <div className="form-group">
-                                    <label htmlFor="email">Email</label>
-                                    <input type="text" name="email" className="form-control w-full h-12 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Email Address" required />
+                                    <input type="text" name="email" className="form-control w-full h-14 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Your Email" required />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="password">Password</label>
-                                    <input type="password" name="password" className="form-control w-full h-12 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Password" required />
+                                    <input type="password" name="password" className="form-control w-full h-14 p-2 rounded mb-5 text-black border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-700 focus:ring-1" placeholder="Your Password" required />
                                 </div>
 
                                 {/* Checkbox and Forgot password part */}
@@ -48,7 +46,7 @@ const Login = () => {
                                 </div>
 
                                 <div className="form-group">
-                                    <input type="submit" value="Login" className="text-gray-100 text-lg cursor-pointer w-full h-12 transform duration-300 bg-sky-900 hover:bg-sky-800 rounded mb-10" />
+                                    <input type="submit" value="Login" className="text-gray-900 text-lg cursor-pointer w-full h-14 transform duration-300 bg-gray-200 hover:bg-gray-500 hover:text-gray-200 rounded mb-10" />
                                 </div>
 
                                 {/* Others login system */}
